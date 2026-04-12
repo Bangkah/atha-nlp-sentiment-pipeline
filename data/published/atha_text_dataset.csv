@@ -1,0 +1,1801 @@
+text,label,split,label_text
+kalau dari pengalamanku overall masih oke untuk harga segini,1,train,neutral
+jujur ya adminnya susah dihubungi!,0,train,negative
+kalau dari pengalamanku overall masih oke untuk harga segini...,1,train,neutral
+produk ini beneran bagus buat pemakaian harian,2,train,positive
+buatku produk ini standar dari pengalaman pertama sih,1,train,neutral
+buatku recommended banget dari segi fitur sih,2,train,positive
+kalau dari pengalamanku kualitasnya mantap dari segi fitur buatku.,2,train,positive
+buatku packaging rusak waktu sampai untuk harga segini buatku,0,train,negative
+tidak recommended buat pemakaian harian buatku,0,train,negative
+kalau dari pengalamanku dipakai harian tetap nyaman dari pengalaman pertama sih,2,train,positive
+buatku adminnya responsif dan ramah sih,2,train,positive
+buatku fiturnya sangat membantu buat pemakaian harian,2,train,positive
+overall masih oke untuk harga segini buat pemakaian harian ya!,1,train,neutral
+buatku barang ini standar dari pengalaman pertama sih...,1,train,neutral
+kalau dari pengalamanku fiturnya cukup membantu sih,1,train,neutral
+review singkat kwalitasnya lumayan buat pemakaian harian banget,1,train,neutral
+menurutku harga tidak sebanding dari segi fitur sih,0,train,negative
+review singkat saya tidak puas untuk harga segini sih,0,train,negative
+jujur ya packaging rusak waktu sampai dari segi fitur bgt,0,train,negative
+kalau dari pengalamanku pengiriman sesuai estimasi buat pemakaian harian menurutku,1,train,neutral
+menurutku sejauh ini aman tapi belum spesial.,1,train,neutral
+review singkat servis cukup biasa dari pengalaman pertama,1,train,neutral
+kalau dari pengalamanku harga tidak sebanding dari pengalaman pertama sih,0,train,negative
+review singkat fiturnya cukup membantu untuk harga segini,1,train,neutral
+buatku harga masih oke untuk harga segini menurutku,1,train,neutral
+jujur ya dipakai sebentar langsung bermasalah dari pengalaman pertama menurutku,0,train,negative
+review singkat produk ini standar untuk harga segini menurutku,1,train,neutral
+buatku pelayanan sangat lambat ya,0,train,negative
+review singkat saya suka hasilnya buat pemakaian harian sih,2,train,positive
+review singkat harga masih oke dari pengalaman pertama,1,train,neutral
+menurutku pelayanan cukup biasa dari pengalaman pertama.,1,train,neutral
+harga masih oke banget,1,train,neutral
+buatku produk ini sangat bagus dari segi fitur,2,train,positive
+kalau dari pengalamanku packaging rusak waktu sampai dari pengalaman pertama sih,0,train,negative
+kalau dari pengalamanku pelayanan cukup biasa dari segi fitur!,1,train,neutral
+review singkat dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+jujur ya fiturnya sering error buat pemakaian harian sih,0,train,negative
+kalau dari pengalamanku saya suka hasilnya dari pengalaman pertama banget,2,train,positive
+kualitasnya lumayan buat pemakaian harian menurutku.,1,train,neutral
+jujur ya kwalitasnya lumayan dari pengalaman pertama ya...,1,train,neutral
+jujur ya adminnya responsif dan ramah untuk harga segini banget.,2,train,positive
+jujur ya pengalaman saya biasa saja dari pengalaman pertama ya,1,train,neutral
+review singkat recommended banget untuk harga segini buatku,2,train,positive
+review singkat produk ini standar untuk harga segini bgt!,1,train,neutral
+buatku pengalaman saya biasa saja untuk harga segini menurutku,1,train,neutral
+kalau dari pengalamanku dipakai harian tetap nyaman menurutku!,2,train,positive
+harga tidak sebanding buat pemakaian harian ya,0,train,negative
+pelayanan sangat lambat,0,train,negative
+kalau dari pengalamanku harga sesuai kualitas buatku,2,train,positive
+jujur ya fiturnya sering error ya,0,train,negative
+buatku fiturnya cukup membantu dari pengalaman pertama banget,1,train,neutral
+jujur ya servis sangat lambat dari pengalaman pertama,0,train,negative
+buatku fiturnya jalan sesuai deskripsi dari pengalaman pertama ya,1,train,neutral
+buatku barang datang dalam kondisi jelek dari segi fitur banget,0,train,negative
+review singkat tidak recommended untuk harga segini ya,0,train,negative
+buatku pengiriman terlambat dari pengalaman pertama menurutku,0,train,negative
+harga tidak sebanding untuk harga segini banget.,0,train,negative
+kalau dari pengalamanku adminnya susah dihubungi dari pengalaman pertama ya,0,train,negative
+jujur ya barang datang dalam kondisi jelek dari pengalaman pertama sih,0,train,negative
+kalau dari pengalamanku pengiriman terlambat untuk harga segini.,0,train,negative
+buatku worth it banget buat dibeli dari pengalaman pertama,2,train,positive
+kalau dari pengalamanku barang ini standar untuk harga segini ya,1,train,neutral
+kalau dari pengalamanku kualitasnya lumayan menurutku,1,train,neutral
+buatku packaging rapi dan aman untuk harga segini banget,2,train,positive
+buatku pengiriman tepat waktu buat pemakaian harian,2,train,positive
+barang datang dalam kondisi jelek untuk harga segini sih...,0,train,negative
+menurutku worth it bgt buat dibeli dari segi fitur,2,train,positive
+kalau dari pengalamanku pengiriman tepat waktu banget,2,train,positive
+overall masih oke untuk harga segini ya,1,train,neutral
+buatku recommended banget dari segi fitur ya,2,train,positive
+buatku fiturnya jalan sesuai deskripsi buat pemakaian harian buatku,1,train,neutral
+jujur ya produk ini standar dari segi fitur!,1,train,neutral
+pelayanannya sangat lambat buat pemakaian harian banget,0,train,negative
+review singkat pelayanannya cukup biasa menurutku,1,train,neutral
+buatku pengiriman normal tidak cepat tidak lambat buat pemakaian harian menurutku,1,train,neutral
+hasilnya tidak buruk tidak istimewa untuk harga segini ya,1,train,neutral
+menurutku tidak recommended sih,0,train,negative
+jujur ya packaging rapi dan aman dari segi fitur buatku,2,train,positive
+kalau dari pengalamanku harga sesuai kualitas untuk harga segini ya,2,train,positive
+jujur ya servis cepat dan memuaskan dari pengalaman pertama menurutku,2,train,positive
+buatku kualitasnya lumayan dari pengalaman pertama,1,train,neutral
+jujur ya kwalitasnya buruk dari segi fitur menurutku,0,train,negative
+jujur ya saya suka hasilnya untuk harga segini,2,train,positive
+buatku kualitasnya lumayan sih,1,train,neutral
+menurutku gak recommended buat pemakaian harian banget,0,train,negative
+menurutku dipakai harian tetap nyaman buat pemakaian harian menurutku,2,train,positive
+fiturnya beneran membantu buat pemakaian harian buatku,2,train,positive
+jujur ya pengalaman saya biasa saja dari pengalaman pertama buatku...,1,train,neutral
+menurutku kualitasnya lumayan untuk harga segini buatku,1,train,neutral
+kalau dari pengalamanku harga ga sebanding buat pemakaian harian menurutku,0,train,negative
+review singkat pengalaman saya biasa saja dari segi fitur,1,train,neutral
+jujur ya fiturnya sangat membantu dari segi fitur,2,train,positive
+buatku tidak recommended dari segi fitur ya,0,train,negative
+packaging rapi dan aman dari pengalaman pertama,2,train,positive
+menurutku produk ini sangat bagus ya.,2,train,positive
+buatku pelayanan sangat lambat dari segi fitur banget,0,train,negative
+menurutku dipakai harian tetap nyaman ya,2,train,positive
+kalau dari pengalamanku harga tidak sebanding banget,0,train,negative
+jujur ya ga recommended untuk harga segini menurutku,0,train,negative
+jujur ya dipakai harian tetap nyaman banget,2,train,positive
+dipakai sebentar langsung bermasalah ya,0,train,negative
+kalau dari pengalamanku worth it bnget buat dibeli buat pemakaian harian,2,train,positive
+review singkat fiturnya jalan sesuai deskripsi buat pemakaian harian banget,1,train,neutral
+jujur ya pengalaman saya biasa saja buat pemakaian harian bnget,1,train,neutral
+review singkat harga masih oke dari pengalaman pertama banget,1,train,neutral
+review singkat servis cepat dan memuaskan buatku,2,train,positive
+review singkat packaging rusak waktu sampai dari pengalaman pertama banget...,0,train,negative
+jujur ya pengiriman normal tidak cepat tidak lambat buatku,1,train,neutral
+jujur ya adminnya susah dihubungi buat pemakaian harian sih,0,train,negative
+pengalaman saya biasa saja buat pemakaian harian banget,1,train,neutral
+kalau dari pengalamanku dipakai sebentar langsung bermasalah dari segi fitur buatku,0,train,negative
+jujur ya dipakai harian tetap nyaman buat pemakaian harian menurutku,2,train,positive
+kalau dari pengalamanku saya tidak puas untuk harga segini menurutku,0,train,negative
+review singkat sejauh ini aman tapi belum spesial menurutku.,1,train,neutral
+buatku sejauh ini aman tapi belum spesial buat pemakaian harian ya,1,train,neutral
+review singkat fiturnya sangat membantu buat pemakaian harian!,2,train,positive
+kalau dari pengalamanku produk ini standar ya...,1,train,neutral
+harga sesuai kualitas dari segi fitur bgt,2,train,positive
+jujur ya servis cukup biasa dari segi fitur buatku,1,train,neutral
+jujur ya kwalitasnya buruk,0,train,negative
+menurutku kwalitasnya buruk untuk harga segini,0,train,negative
+menurutku pelayanan cukup biasa untuk harga segini bgt,1,train,neutral
+jujur ya saya nggak puas dari segi fitur ya,0,train,negative
+kalau dari pengalamanku produk ini standar dari pengalaman pertama ya,1,train,neutral
+review singkat sejauh ini aman tapi belum spesial buat pemakaian harian menurutku,1,train,neutral
+dipakai sebentar langsung bermasalah dari segi fitur banget,0,train,negative
+menurutku kualitasnya lumayan dari segi fitur sih,1,train,neutral
+menurutku packaging rusak waktu sampai,0,train,negative
+packaging rapi dan aman dari segi fitur menurutku,2,train,positive
+fiturnya sering error buat pemakaian harian,0,train,negative
+kualitasnya buruk buatku,0,train,negative
+buatku overall masih oke untuk harga segini dari pengalaman pertama sih...,1,train,neutral
+menurutku fiturnya sangat membantu untuk harga segini menurutku,2,train,positive
+menurutku fiturnya sering error untuk harga segini!,0,train,negative
+buatku fiturnya sangat membantu untuk harga segini banget...,2,train,positive
+jujur ya fiturnya cukup membantu untuk harga segini ya,1,train,neutral
+kalau dari pengalamanku kualitasnya lumayan menurutku,1,train,neutral
+review singkat adminnya responsif dan ramah.,2,train,positive
+buatku worth it banget buat dibeli untuk harga segini banget...,2,train,positive
+kalau dari pengalamanku saya suka hasilnya dari segi fitur menurutku,2,train,positive
+jujur ya adminnya responsif dan ramah dari segi fitur buatku,2,train,positive
+jujur ya hasilnya tidak buruk tidak istimewa dari pengalaman pertama menurutku,1,train,neutral
+jujur ya tidak recommended dari segi fitur menurutku,0,train,negative
+menurutku harga gak sebanding untuk harga segini bgt,0,train,negative
+menurutku harga sesuai kualitas dari pengalaman pertama sih,2,train,positive
+menurutku overall masih oke untuk harga segini menurutku,1,train,neutral
+review singkat packaging rusak waktu sampai untuk harga segini ya,0,train,negative
+review singkat fiturnya sering error dari pengalaman pertama,0,train,negative
+menurutku packaging rapi dan aman ya,2,train,positive
+jujur ya saya tidak puas untuk harga segini ya,0,train,negative
+produk ini mengecewakan buat pemakaian harian menurutku,0,train,negative
+kalau dari pengalamanku packaging rusak waktu sampai untuk harga segini ya,0,train,negative
+fiturnya cukup membantu bgt,1,train,neutral
+buatku dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+buatku harga masih oke sih,1,train,neutral
+review singkat produk ini mengecewakan buat pemakaian harian sih,0,train,negative
+menurutku pelayanan sangat lambat buat pemakaian harian ya,0,train,negative
+buatku harga sesuai kualitas dari segi fitur,2,train,positive
+buatku worth it banget buat dibeli dari pengalaman pertama buatku,2,train,positive
+menurutku barang ini sangat bagus untuk harga segini,2,train,positive
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi dari segi fitur,1,train,neutral
+kalau dari pengalamanku produk ini beneran bagus dari segi fitur buatku,2,train,positive
+review singkat adminnya susah dihubungi dari pengalaman pertama,0,train,negative
+kalau dari pengalamanku harga tidak sebanding ya,0,train,negative
+jujur ya barang datang dalam kondisi jelek dari segi fitur,0,train,negative
+buatku saya suka hasilnya dari pengalaman pertama bgt,2,train,positive
+recommended banget untuk harga segini menurutku...,2,train,positive
+overall masih oke untuk harga segini dari pengalaman pertama,1,train,neutral
+jujur ya delivery tepat waktu menurutku,2,train,positive
+buatku packaging rapi dan aman untuk harga segini ya,2,train,positive
+jujur ya fiturnya cukup membantu dari pengalaman pertama buatku,1,train,neutral
+review singkat sejauh ini aman tapi belum spesial sih,1,train,neutral
+buatku worth it banget buat dibeli,2,train,positive
+sejauh ini aman tapi belum spesial,1,train,neutral
+buatku barang datang dalam kondisi jelek dari segi fitur banget,0,train,negative
+review singkat fiturnya sangat membantu dari pengalaman pertama sih,2,train,positive
+buatku saya suka hasilnya dari segi fitur buatku!,2,train,positive
+menurutku recommended bnget untuk harga segini menurutku,2,train,positive
+jujur ya saya nggak puas untuk harga segini buatku!,0,train,negative
+jujur ya kualitasnya buruk dari pengalaman pertama sih,0,train,negative
+kalau dari pengalamanku fiturnya sering error buat pemakaian harian buatku,0,train,negative
+fiturnya sering error untuk harga segini banget,0,train,negative
+kualitasnya lumayan untuk harga segini ya,1,train,neutral
+kalau dari pengalamanku kualitasnya buruk sih...,0,train,negative
+pelayanan cukup biasa dari segi fitur buatku,1,train,neutral
+kalau dari pengalamanku saya suka hasilnya menurutku!,2,train,positive
+review singkat kualitasnya buruk buat pemakaian harian,0,train,negative
+menurutku fiturnya beneran membantu untuk harga segini menurutku,2,train,positive
+review singkat kualitasnya buruk dari pengalaman pertama ya...,0,train,negative
+buatku fiturnya sering error dari segi fitur sih,0,train,negative
+review singkat sejauh ini aman tapi belum spesial untuk harga segini menurutku...,1,train,neutral
+kalau dari pengalamanku produk ini standar buat pemakaian harian ya,1,train,neutral
+kalau dari pengalamanku tidak recommended dari pengalaman pertama ya,0,train,negative
+kualitasnya lumayan untuk harga segini sih,1,train,neutral
+menurutku recommended banget banget,2,train,positive
+menurutku servis beneran lambat ya,0,train,negative
+worth it banget buat dibeli dari pengalaman pertama ya,2,train,positive
+review singkat pengiriman sesuai estimasi dari pengalaman pertama!,1,train,neutral
+menurutku packaging rapi dan aman untuk harga segini bnget,2,train,positive
+review singkat worth it banget buat dibeli untuk harga segini menurutku...,2,train,positive
+menurutku pelayanan sangat lambat buat pemakaian harian banget,0,train,negative
+jujur ya pengiriman tepat waktu dari segi fitur,2,train,positive
+jujur ya sejauh ini aman tapi belum spesial buat pemakaian harian banget,1,train,neutral
+jujur ya barang ini mengecewakan untuk harga segini buatku,0,train,negative
+jujur ya hasilnya ga buruk tidak istimewa untuk harga segini buatku,1,train,neutral
+kalau dari pengalamanku worth it banget buat dibeli sih,2,train,positive
+buatku pengiriman tepat waktu buat pemakaian harian buatku,2,train,positive
+pengiriman normal tidak cepat tidak lambat buat pemakaian harian ya,1,train,neutral
+review singkat packaging rusak waktu sampai untuk harga segini ya,0,train,negative
+packaging rapi dan aman dari segi fitur,2,train,positive
+menurutku delivery tepat waktu,2,train,positive
+menurutku dipakai sebentar langsung bermasalah untuk harga segini sih,0,train,negative
+jujur ya pengiriman sesuai estimasi buat pemakaian harian sih,1,train,neutral
+review singkat fiturnya sangat membantu banget,2,train,positive
+jujur ya pelayanan cukup biasa dari segi fitur banget,1,train,neutral
+dipakai sebentar langsung bermasalah untuk harga segini ya,0,train,negative
+worth it bgt buat dibeli buat pemakaian harian,2,train,positive
+review singkat produk ini sangat bagus dari segi fitur menurutku,2,train,positive
+review singkat saya tidak puas dari segi fitur sih!,0,train,negative
+menurutku nggak recommended menurutku,0,train,negative
+menurutku saya suka hasilnya buatku!,2,train,positive
+menurutku pengiriman sesuai estimasi untuk harga segini buatku,1,train,neutral
+kalau dari pengalamanku dipakai harian tetap nyaman dari pengalaman pertama ya,2,train,positive
+review singkat harga masih oke banget,1,train,neutral
+kalau dari pengalamanku harga masih oke untuk harga segini buatku,1,train,neutral
+jujur ya harga tidak sebanding dari segi fitur menurutku,0,train,negative
+review singkat sejauh ini aman tapi belum spesial ya!,1,train,neutral
+buatku packaging rusak waktu sampai buat pemakaian harian sih,0,train,negative
+buatku hasilnya gak buruk tidak istimewa dari pengalaman pertama,1,train,neutral
+buatku harga masih oke untuk harga segini sih,1,train,neutral
+menurutku pengiriman terlambat dari pengalaman pertama ya...,0,train,negative
+kalau dari pengalamanku harga ga sebanding untuk harga segini sih,0,train,negative
+review singkat barang datang dalam kondisi jelek dari pengalaman pertama menurutku...,0,train,negative
+review singkat harga masih oke untuk harga segini sih,1,train,neutral
+kalau dari pengalamanku harga sesuai kualitas dari segi fitur menurutku,2,train,positive
+menurutku fiturnya sering error untuk harga segini sih...,0,train,negative
+kalau dari pengalamanku pengiriman tepat waktu dari segi fitur menurutku,2,train,positive
+menurutku saya suka hasilnya dari pengalaman pertama,2,train,positive
+menurutku recommended banget untuk harga segini menurutku,2,train,positive
+pengiriman terlambat dari segi fitur,0,train,negative
+menurutku pengalaman saya biasa saja dari pengalaman pertama ya,1,train,neutral
+kalau dari pengalamanku dipakai harian tetap nyaman dari segi fitur banget,2,train,positive
+jujur ya harga sesuai kualitas dari segi fitur ya,2,train,positive
+buatku packaging rapi dan aman dari segi fitur,2,train,positive
+kalau dari pengalamanku servis cukup biasa dari pengalaman pertama ya,1,train,neutral
+jujur ya harga tidak sebanding dari segi fitur menurutku,0,train,negative
+review singkat pengiriman terlambat ya.,0,train,negative
+buatku pengiriman sesuai estimasi untuk harga segini menurutku,1,train,neutral
+kalau dari pengalamanku packaging rusak waktu sampai dari segi fitur buatku,0,train,negative
+buatku packaging rapi dan aman dari pengalaman pertama buatku,2,train,positive
+kalau dari pengalamanku worth it banget buat dibeli dari segi fitur ya!,2,train,positive
+kalau dari pengalamanku fiturnya sangat membantu dari pengalaman pertama ya,2,train,positive
+menurutku packaging rusak waktu sampai buat pemakaian harian buatku,0,train,negative
+jujur ya adminnya responsif dan ramah dari segi fitur menurutku,2,train,positive
+barang ini standar untuk harga segini menurutku,1,train,neutral
+buatku overall masih oke untuk harga segini untuk harga segini buatku,1,train,neutral
+buatku fiturnya sering error dari pengalaman pertama,0,train,negative
+buatku sejauh ini aman tapi belum spesial buat pemakaian harian menurutku,1,train,neutral
+kalau dari pengalamanku adminnya responsif dan ramah dari segi fitur ya,2,train,positive
+jujur ya produk ini standar dari pengalaman pertama ya,1,train,neutral
+review singkat packaging rusak waktu sampai sih,0,train,negative
+dipakai sebentar langsung bermasalah untuk harga segini ya,0,train,negative
+sejauh ini aman tapi belum spesial buat pemakaian harian buatku,1,train,neutral
+menurutku pengalaman saya biasa saja untuk harga segini menurutku,1,train,neutral
+menurutku barang datang dalam kondisi jelek dari pengalaman pertama,0,train,negative
+kalau dari pengalamanku fiturnya sering error untuk harga segini sih,0,train,negative
+review singkat packaging rusak waktu sampai dari segi fitur,0,train,negative
+review singkat barang datang dalam kondisi jelek buatku,0,train,negative
+sejauh ini aman tapi belum spesial untuk harga segini menurutku,1,train,neutral
+jujur ya fiturnya cukup membantu buat pemakaian harian sih,1,train,neutral
+buatku fiturnya jalan sesuai deskripsi dari pengalaman pertama,1,train,neutral
+buatku harga sesuai kualitas dari segi fitur menurutku,2,train,positive
+menurutku barang ini standar dari segi fitur sih.,1,train,neutral
+jujur ya sejauh ini aman tapi belum spesial dari segi fitur menurutku,1,train,neutral
+menurutku produk ini mengecewakan buat pemakaian harian ya,0,train,negative
+menurutku saya gak puas dari segi fitur,0,train,negative
+review singkat harga tidak sebanding dari pengalaman pertama ya,0,train,negative
+buatku fiturnya sangat membantu dari segi fitur ya,2,train,positive
+menurutku produk ini sangat bagus untuk harga segini buatku,2,train,positive
+menurutku kualitasnya lumayan buat pemakaian harian,1,train,neutral
+buatku barang ini standar dari segi fitur.,1,train,neutral
+harga sesuai kualitas dari segi fitur menurutku.,2,train,positive
+review singkat produk ini standar buatku,1,train,neutral
+kalau dari pengalamanku pengiriman tepat waktu dari pengalaman pertama buatku,2,train,positive
+dipakai harian tetap nyaman dari pengalaman pertama menurutku!,2,train,positive
+review singkat fiturnya sangat membantu,2,train,positive
+kalau dari pengalamanku barang ini mengecewakan dari segi fitur,0,train,negative
+review singkat worth it banget buat dibeli ya.,2,train,positive
+review singkat worth it bgt buat dibeli buat pemakaian harian menurutku,2,train,positive
+pelayanan cepat dan memuaskan buat pemakaian harian sih,2,train,positive
+kalau dari pengalamanku fiturnya cukup membantu buat pemakaian harian buatku.,1,train,neutral
+review singkat harga sesuai kwalitas dari pengalaman pertama ya,2,train,positive
+jujur ya kualitasnya buruk ya,0,train,negative
+jujur ya produk ini sangat bagus banget,2,train,positive
+harga sesuai kualitas dari segi fitur,2,train,positive
+jujur ya dipakai sebentar langsung bermasalah dari segi fitur sih...,0,train,negative
+menurutku barang datang dalam kondisi jelek banget,0,train,negative
+kalau dari pengalamanku harga sesuai kualitas buat pemakaian harian buatku,2,train,positive
+jujur ya barang datang dalam kondisi jelek untuk harga segini sih,0,train,negative
+review singkat adminnya susah dihubungi dari pengalaman pertama buatku,0,train,negative
+buatku kualitasnya mantap sih,2,train,positive
+pelayanannya cepat dan memuaskan untuk harga segini buatku,2,train,positive
+kalau dari pengalamanku pengiriman terlambat untuk harga segini buatku,0,train,negative
+review singkat tidak recommended bnget,0,train,negative
+jujur ya fiturnya sangat membantu ya,2,train,positive
+dipakai sebentar langsung bermasalah dari segi fitur ya...,0,train,negative
+kalau dari pengalamanku hasilnya tidak buruk tidak istimewa untuk harga segini bgt,1,train,neutral
+buatku harga masih oke untuk harga segini ya,1,train,neutral
+pengiriman tepat waktu menurutku,2,train,positive
+menurutku adminnya susah dihubungi untuk harga segini ya.,0,train,negative
+review singkat fiturnya sering error buat pemakaian harian banget...,0,train,negative
+menurutku pelayanan cukup biasa dari segi fitur banget,1,train,neutral
+menurutku barang ini standar dari segi fitur!,1,train,neutral
+kalau dari pengalamanku worth it banget buat dibeli dari segi fitur sih,2,train,positive
+kalau dari pengalamanku harga sesuai kualitas untuk harga segini menurutku.,2,train,positive
+buatku pelayanan cepat dan memuaskan buat pemakaian harian ya,2,train,positive
+menurutku pengiriman sesuai estimasi dari segi fitur sih,1,train,neutral
+review singkat fiturnya beneran membantu dari segi fitur sih,2,train,positive
+pengiriman terlambat untuk harga segini ya,0,train,negative
+harga masih oke dari segi fitur.,1,train,neutral
+jujur ya recommended banget buat pemakaian harian ya...,2,train,positive
+kalau dari pengalamanku packaging rusak waktu sampai buat pemakaian harian ya.,0,train,negative
+menurutku pengiriman tepat waktu buat pemakaian harian.,2,train,positive
+jujur ya pelayanan cepat dan memuaskan untuk harga segini menurutku,2,train,positive
+kalau dari pengalamanku pengalaman saya biasa saja untuk harga segini buatku,1,train,neutral
+jujur ya harga tidak sebanding,0,train,negative
+menurutku hasilnya ga buruk tidak istimewa ya,1,train,neutral
+jujur ya barang datang dalam kondisi jelek untuk harga segini,0,train,negative
+adminnya susah dihubungi buat pemakaian harian,0,train,negative
+menurutku fiturnya sangat membantu buatku.,2,train,positive
+kalau dari pengalamanku kualitasnya lumayan ya,1,train,neutral
+jujur ya delivery sesuai estimasi dari segi fitur,1,train,neutral
+buatku harga tidak sebanding menurutku.,0,train,negative
+kalau dari pengalamanku packaging rusak waktu sampai buatku.,0,train,negative
+buatku saya suka hasilnya menurutku,2,train,positive
+review singkat adminnya responsif dan ramah dari pengalaman pertama,2,train,positive
+menurutku produk ini mengecewakan untuk harga segini,0,train,negative
+buatku servis cepat dan memuaskan dari pengalaman pertama sih,2,train,positive
+review singkat packaging rapi dan aman untuk harga segini menurutku,2,train,positive
+review singkat fiturnya sering error buatku,0,train,negative
+sejauh ini aman tapi belum spesial untuk harga segini ya,1,train,neutral
+review singkat pengiriman tepat waktu sih,2,train,positive
+kalau dari pengalamanku adminnya responsif dan ramah ya,2,train,positive
+buatku saya suka hasilnya dari segi fitur menurutku,2,train,positive
+review singkat delivery normal gak cepat tidak lambat dari segi fitur banget!,1,train,neutral
+review singkat packaging rapi dan aman untuk harga segini banget,2,train,positive
+review singkat pengiriman terlambat buatku,0,train,negative
+buatku overall masih oke untuk harga segini dari segi fitur sih!,1,train,neutral
+menurutku adminnya susah dihubungi untuk harga segini ya,0,train,negative
+kalau dari pengalamanku adminnya responsif dan ramah untuk harga segini sih!,2,train,positive
+buatku produk ini standar menurutku.,1,train,neutral
+jujur ya pengalaman saya biasa saja dari segi fitur sih!,1,train,neutral
+buatku fiturnya sering error buat pemakaian harian menurutku.,0,train,negative
+kalau dari pengalamanku hasilnya tidak buruk tidak istimewa buat pemakaian harian sih,1,train,neutral
+buatku produk ini standar dari segi fitur banget,1,train,neutral
+buatku gak recommended buat pemakaian harian menurutku,0,train,negative
+fiturnya jalan sesuai deskripsi dari pengalaman pertama menurutku,1,train,neutral
+buatku produk ini mengecewakan...,0,train,negative
+review singkat hasilnya gak buruk tidak istimewa untuk harga segini ya!,1,train,neutral
+kalau dari pengalamanku delivery terlambat dari pengalaman pertama buatku,0,train,negative
+review singkat barang ini standar dari segi fitur.,1,train,neutral
+jujur ya fiturnya jalan sesuai deskripsi buat pemakaian harian menurutku!,1,train,neutral
+jujur ya produk ini standar untuk harga segini sih,1,train,neutral
+kalau dari pengalamanku kualitasnya mantap untuk harga segini ya,2,train,positive
+kalau dari pengalamanku harga masih oke dari segi fitur menurutku,1,train,neutral
+overall masih oke untuk harga segini dari pengalaman pertama banget,1,train,neutral
+buatku kualitasnya buruk dari pengalaman pertama sih,0,train,negative
+review singkat harga masih oke dari segi fitur ya,1,train,neutral
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi dari segi fitur sih,1,train,neutral
+kalau dari pengalamanku pengalaman saya biasa saja buat pemakaian harian buatku,1,train,neutral
+jujur ya pelayanan cepat dan memuaskan untuk harga segini sih,2,train,positive
+saya suka hasilnya dari pengalaman pertama sih,2,train,positive
+recommended banget untuk harga segini banget,2,train,positive
+buatku pengiriman terlambat dari pengalaman pertama ya,0,train,negative
+kalau dari pengalamanku overall masih oke untuk harga segini sih!,1,train,neutral
+kalau dari pengalamanku harga sesuai kualitas dari pengalaman pertama buatku,2,train,positive
+review singkat hasilnya tidak buruk tidak istimewa dari segi fitur ya,1,train,neutral
+review singkat dipakai sebentar langsung bermasalah untuk harga segini sih,0,train,negative
+jujur ya pelayanan cukup biasa menurutku,1,train,neutral
+pengiriman normal tidak cepat tidak lambat untuk harga segini ya,1,train,neutral
+kalau dari pengalamanku dipakai sebentar langsung bermasalah untuk harga segini banget,0,train,negative
+kalau dari pengalamanku fiturnya cukup membantu,1,train,neutral
+recommended banget untuk harga segini buatku,2,train,positive
+menurutku pengalaman saya biasa saja untuk harga segini buatku,1,train,neutral
+jujur ya servis beneran lambat untuk harga segini ya,0,train,negative
+buatku pelayanan sangat lambat buat pemakaian harian buatku,0,train,negative
+buatku pelayanan cukup biasa buat pemakaian harian sih,1,train,neutral
+review singkat adminnya responsif dan ramah dari segi fitur banget,2,train,positive
+menurutku saya tidak puas ya,0,train,negative
+buatku adminnya responsif dan ramah dari segi fitur menurutku.,2,train,positive
+kalau dari pengalamanku recommended bgt banget.,2,train,positive
+menurutku fiturnya cukup membantu dari pengalaman pertama sih,1,train,neutral
+buatku pengiriman terlambat untuk harga segini ya.,0,train,negative
+menurutku pengiriman normal nggak cepat tidak lambat buat pemakaian harian sih,1,train,neutral
+menurutku adminnya susah dihubungi dari segi fitur banget!,0,train,negative
+jujur ya recommended banget dari pengalaman pertama,2,train,positive
+buatku pengiriman normal tidak cepat tidak lambat dari pengalaman pertama buatku,1,train,neutral
+buatku sejauh ini aman tapi belum spesial dari segi fitur banget,1,train,neutral
+jujur ya pengiriman terlambat dari segi fitur,0,train,negative
+menurutku pelayanan cepat dan ok buat pemakaian harian sih,2,train,positive
+kalau dari pengalamanku kualitasnya buruk dari segi fitur sih,0,train,negative
+buatku pengiriman terlambat buat pemakaian harian banget...,0,train,negative
+menurutku pengiriman tepat waktu sih...,2,train,positive
+buatku produk ini standar dari pengalaman pertama sih,1,train,neutral
+menurutku pengiriman sesuai estimasi buat pemakaian harian,1,train,neutral
+harga sesuai kualitas sih...,2,train,positive
+kalau dari pengalamanku recommended bnget ya,2,train,positive
+sejauh ini aman tapi belum spesial dari segi fitur sih,1,train,neutral
+review singkat saya suka hasilnya untuk harga segini banget,2,train,positive
+buatku packaging rapi dan aman untuk harga segini buatku,2,train,positive
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi buat pemakaian harian buatku,1,train,neutral
+review singkat saya nggak puas,0,train,negative
+kalau dari pengalamanku servis cukup biasa dari pengalaman pertama ya,1,train,neutral
+kalau dari pengalamanku adminnya responsif dan ramah dari pengalaman pertama banget!,2,train,positive
+kwalitasnya mantap dari pengalaman pertama buatku,2,train,positive
+jujur ya delivery terlambat buatku,0,train,negative
+kalau dari pengalamanku delivery tepat waktu dari pengalaman pertama sih,2,train,positive
+buatku harga masih oke buat pemakaian harian ya...,1,train,neutral
+jujur ya kualitasnya mantap dari pengalaman pertama menurutku,2,train,positive
+buatku kualitasnya buruk buat pemakaian harian menurutku,0,train,negative
+buatku packaging rapi dan aman dari pengalaman pertama,2,train,positive
+kalau dari pengalamanku kualitasnya lumayan ya,1,train,neutral
+buatku harga tidak sebanding dari segi fitur buatku...,0,train,negative
+jujur ya fiturnya sangat membantu buat pemakaian harian sih,2,train,positive
+review singkat saya tidak puas dari segi fitur buatku,0,train,negative
+review singkat pengiriman terlambat buat pemakaian harian bnget,0,train,negative
+review singkat pengiriman terlambat,0,train,negative
+menurutku fiturnya cukup membantu buat pemakaian harian banget,1,train,neutral
+review singkat saya suka hasilnya untuk harga segini sih,2,train,positive
+menurutku harga sesuai kualitas buat pemakaian harian sih,2,train,positive
+dipakai sebentar langsung bermasalah dari pengalaman pertama menurutku,0,train,negative
+harga sesuai kualitas untuk harga segini sih,2,train,positive
+fiturnya jalan sesuai deskripsi dari pengalaman pertama buatku,1,train,neutral
+buatku pengiriman sesuai estimasi dari segi fitur,1,train,neutral
+jujur ya harga tidak sebanding untuk harga segini ya,0,train,negative
+jujur ya harga tidak sebanding untuk harga segini banget,0,train,negative
+menurutku sejauh ini aman tapi belum spesial sih.,1,train,neutral
+review singkat kualitasnya buruk untuk harga segini!,0,train,negative
+menurutku pengiriman terlambat dari segi fitur menurutku,0,train,negative
+kalau dari pengalamanku fiturnya sering error,0,train,negative
+menurutku ga recommended banget,0,train,negative
+kalau dari pengalamanku adminnya susah dihubungi buatku...,0,train,negative
+review singkat fiturnya cukup membantu dari pengalaman pertama sih,1,train,neutral
+kalau dari pengalamanku servis cepat dan memuaskan untuk harga segini menurutku,2,train,positive
+review singkat dipakai sebentar langsung bermasalah buat pemakaian harian menurutku,0,train,negative
+review singkat pengiriman tepat waktu dari segi fitur sih,2,train,positive
+kalau dari pengalamanku delivery tepat waktu untuk harga segini menurutku...,2,train,positive
+tidak rekomen buat pemakaian harian buatku,0,train,negative
+review singkat produk ini mengecewakan untuk harga segini,0,train,negative
+review singkat adminnya susah dihubungi buat pemakaian harian sih,0,train,negative
+review singkat produk ini mengecewakan dari pengalaman pertama sih,0,train,negative
+review singkat fiturnya sangat membantu buat pemakaian harian!,2,train,positive
+buatku packaging rusak waktu sampai dari segi fitur buatku!,0,train,negative
+buatku fiturnya jalan sesuai deskripsi buat pemakaian harian...,1,train,neutral
+produk ini sangat bagus buat pemakaian harian banget,2,train,positive
+menurutku pengiriman terlambat ya,0,train,negative
+kalau dari pengalamanku produk ini mengecewakan untuk harga segini,0,train,negative
+menurutku pengiriman normal nggak cepat tidak lambat untuk harga segini sih,1,train,neutral
+menurutku produk ini sangat bagus dari pengalaman pertama ya,2,train,positive
+review singkat harga tidak sebanding untuk harga segini.,0,train,negative
+review singkat fiturnya cukup membantu untuk harga segini buatku,1,train,neutral
+review singkat saya tidak puas dari pengalaman pertama buatku,0,train,negative
+menurutku kualitasnya buruk menurutku,0,train,negative
+harga masih oke dari pengalaman pertama ya...,1,train,neutral
+review singkat barang datang dalam kondisi jelek dari pengalaman pertama buatku,0,train,negative
+jujur ya saya tidak puas untuk harga segini banget!,0,train,negative
+menurutku harga sesuai kualitas sih,2,train,positive
+review singkat sejauh ini aman tapi belum spesial,1,train,neutral
+review singkat pengiriman tepat waktu dari pengalaman pertama,2,train,positive
+buatku pengalaman saya biasa saja untuk harga segini sih,1,train,neutral
+review singkat pengalaman saya biasa saja dari segi fitur ya,1,train,neutral
+buatku harga sesuai kualitas buat pemakaian harian...,2,train,positive
+kalau dari pengalamanku kualitasnya lumayan dari segi fitur!,1,train,neutral
+review singkat kualitasnya lumayan dari pengalaman pertama bgt,1,train,neutral
+menurutku dipakai harian tetap nyaman menurutku...,2,train,positive
+review singkat tidak recommended dari pengalaman pertama...,0,train,negative
+jujur ya kualitasnya buruk!,0,train,negative
+menurutku kualitasnya lumayan dari pengalaman pertama!,1,train,neutral
+jujur ya fiturnya sangat membantu dari segi fitur ya.,2,train,positive
+review singkat overall masih oke untuk harga segini dari pengalaman pertama bgt,1,train,neutral
+review singkat hasilnya tidak buruk tidak istimewa,1,train,neutral
+buatku packaging rusak waktu sampai buat pemakaian harian,0,train,negative
+menurutku pengiriman sesuai estimasi buat pemakaian harian,1,train,neutral
+review singkat harga masih oke sih,1,train,neutral
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi dari segi fitur banget,1,train,neutral
+buatku overall masih oke untuk harga segini dari pengalaman pertama sih,1,train,neutral
+menurutku pelayanan cukup biasa dari pengalaman pertama ya,1,train,neutral
+review singkat produk ini standar untuk harga segini menurutku,1,train,neutral
+harga sesuai kualitas buat pemakaian harian ya...,2,train,positive
+review singkat dipakai sebentar langsung bermasalah menurutku,0,train,negative
+jujur ya hasilnya ga buruk tidak istimewa dari pengalaman pertama banget...,1,train,neutral
+kalau dari pengalamanku adminnya susah dihubungi buat pemakaian harian buatku,0,train,negative
+kalau dari pengalamanku pengiriman normal tidak cepat tidak lambat buatku,1,train,neutral
+kalau dari pengalamanku adminnya susah dihubungi sih,0,train,negative
+menurutku saya suka hasilnya buat pemakaian harian banget,2,train,positive
+jujur ya pengiriman normal nggak cepat tidak lambat dari segi fitur,1,train,neutral
+review singkat kualitasnya mantap dari pengalaman pertama,2,train,positive
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian menurutku,1,train,neutral
+menurutku produk ini mengecewakan buat pemakaian harian banget,0,train,negative
+pengiriman terlambat dari segi fitur menurutku.,0,train,negative
+review singkat pengiriman sesuai estimasi dari pengalaman pertama buatku,1,train,neutral
+kalau dari pengalamanku pelayanan sangat lambat dari pengalaman pertama buatku,0,train,negative
+menurutku pengiriman normal gak cepat tidak lambat dari pengalaman pertama menurutku,1,train,neutral
+review singkat worth it banget buat dibeli dari segi fitur banget,2,train,positive
+kalau dari pengalamanku fiturnya sering error dari pengalaman pertama,0,train,negative
+menurutku adminnya susah dihubungi dari pengalaman pertama banget...,0,train,negative
+review singkat packaging rusak waktu sampai buat pemakaian harian!,0,train,negative
+menurutku packaging rusak waktu sampai banget,0,train,negative
+review singkat kualitasnya mantap untuk harga segini ya,2,train,positive
+menurutku pengiriman terlambat buatku,0,train,negative
+kalau dari pengalamanku kualitasnya mantap sih,2,train,positive
+kalau dari pengalamanku packaging rapi dan aman untuk harga segini menurutku...,2,train,positive
+jujur ya packaging rapi dan aman dari segi fitur,2,train,positive
+jujur ya adminnya responsif dan ramah untuk harga segini,2,train,positive
+servis cukup biasa buat pemakaian harian buatku,1,train,neutral
+pengiriman sesuai estimasi sih,1,train,neutral
+buatku worth it bnget buat dibeli untuk harga segini menurutku,2,train,positive
+buatku barang datang dalam kondisi jelek dari segi fitur buatku.,0,train,negative
+jujur ya sejauh ini aman tapi belum spesial dari pengalaman pertama banget,1,train,neutral
+kalau dari pengalamanku hasilnya ga buruk tidak istimewa dari segi fitur banget,1,train,neutral
+jujur ya recommended banget menurutku,2,train,positive
+kalau dari pengalamanku packaging rusak waktu sampai dari segi fitur bgt,0,train,negative
+review singkat adminnya responsif dan ramah untuk harga segini menurutku,2,train,positive
+kalau dari pengalamanku pelayanan cepat dan memuaskan,2,train,positive
+review singkat kwalitasnya lumayan untuk harga segini sih,1,train,neutral
+jujur ya produk ini sangat bagus ya,2,train,positive
+pengiriman tepat waktu dari segi fitur,2,train,positive
+jujur ya barang ini mengecewakan buatku,0,train,negative
+buatku dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+buatku produk ini mengecewakan menurutku,0,train,negative
+kualitasnya buruk,0,train,negative
+kalau dari pengalamanku fiturnya sangat membantu untuk harga segini ya,2,train,positive
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi dari pengalaman pertama banget!,1,train,neutral
+menurutku pengiriman sesuai estimasi dari pengalaman pertama ya.,1,train,neutral
+pengiriman normal tidak cepat tidak lambat sih,1,train,neutral
+jujur ya fiturnya jalan sesuai deskripsi buat pemakaian harian sih.,1,train,neutral
+kalau dari pengalamanku pelayanan cukup biasa buat pemakaian harian buatku,1,train,neutral
+pengiriman sesuai estimasi dari pengalaman pertama ya...,1,train,neutral
+jujur ya adminnya susah dihubungi sih...,0,train,negative
+kalau dari pengalamanku pengiriman sesuai estimasi dari pengalaman pertama ya,1,train,neutral
+kalau dari pengalamanku pengiriman terlambat dari segi fitur sih,0,train,negative
+buatku kualitasnya buruk dari segi fitur bgt,0,train,negative
+kalau dari pengalamanku fiturnya sering error dari pengalaman pertama bnget,0,train,negative
+buatku dipakai sebentar langsung bermasalah dari pengalaman pertama banget,0,train,negative
+menurutku fiturnya cukup membantu sih...,1,train,neutral
+kalau dari pengalamanku fiturnya cukup membantu banget,1,train,neutral
+review singkat servis cepat dan memuaskan sih...,2,train,positive
+jujur ya pengiriman terlambat untuk harga segini menurutku,0,train,negative
+jujur ya pengiriman tepat waktu untuk harga segini,2,train,positive
+buatku recommended banget untuk harga segini ya,2,train,positive
+review singkat fiturnya jalan sesuai deskripsi buat pemakaian harian,1,train,neutral
+buatku dipakai sebentar langsung bermasalah dari segi fitur menurutku.,0,train,negative
+jujur ya saya suka hasilnya dari pengalaman pertama buatku,2,train,positive
+kalau dari pengalamanku harga masih oke buatku,1,train,neutral
+kalau dari pengalamanku adminnya responsif dan ramah sih,2,train,positive
+menurutku tidak recommended ya,0,train,negative
+fiturnya jalan sesuai deskripsi dari pengalaman pertama sih,1,train,neutral
+kualitasnya lumayan dari segi fitur menurutku,1,train,neutral
+jujur ya delivery normal tidak cepat tidak lambat ya,1,train,neutral
+review singkat pelayanan sangat lambat dari pengalaman pertama banget,0,train,negative
+jujur ya harga tidak sebanding dari pengalaman pertama buatku,0,train,negative
+menurutku produk ini mengecewakan dari segi fitur bnget,0,train,negative
+buatku worth it bgt buat dibeli banget,2,train,positive
+buatku saya nggak puas dari segi fitur sih!,0,train,negative
+kualitasnya lumayan untuk harga segini buatku,1,train,neutral
+menurutku kualitasnya lumayan ya,1,train,neutral
+menurutku adminnya susah dihubungi sih,0,train,negative
+review singkat recommended banget buat pemakaian harian,2,train,positive
+review singkat fiturnya jalan sesuai deskripsi menurutku,1,train,neutral
+buatku kualitasnya buruk dari segi fitur ya,0,train,negative
+kalau dari pengalamanku kualitasnya lumayan buat pemakaian harian...,1,train,neutral
+menurutku kualitasnya mantap buat pemakaian harian sih,2,train,positive
+menurutku fiturnya cukup membantu buatku,1,train,neutral
+buatku harga sesuai kualitas buat pemakaian harian!,2,train,positive
+menurutku delivery normal tidak cepat tidak lambat buat pemakaian harian ya!,1,train,neutral
+kalau dari pengalamanku produk ini standar dari pengalaman pertama buatku,1,train,neutral
+kalau dari pengalamanku produk ini sangat bagus banget,2,train,positive
+buatku pengiriman tepat waktu dari segi fitur buatku!,2,train,positive
+review singkat packaging rusak waktu sampai buat pemakaian harian ya,0,train,negative
+review singkat servis cukup biasa untuk harga segini menurutku,1,train,neutral
+buatku fiturnya sering error dari pengalaman pertama ya,0,train,negative
+pengalaman saya biasa saja dari pengalaman pertama ya,1,train,neutral
+menurutku servis cukup biasa dari segi fitur ya,1,train,neutral
+buatku harga tidak sebanding dari pengalaman pertama!,0,train,negative
+kalau dari pengalamanku produk ini mengecewakan dari segi fitur menurutku,0,train,negative
+buatku delivery terlambat dari pengalaman pertama menurutku,0,train,negative
+review singkat pengalaman saya biasa saja dari segi fitur ya,1,train,neutral
+menurutku saya suka hasilnya ya.,2,train,positive
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi untuk harga segini menurutku,1,train,neutral
+menurutku fiturnya sering error untuk harga segini ya,0,train,negative
+pengiriman sesuai estimasi buat pemakaian harian menurutku,1,train,neutral
+packaging rapi dan aman buat pemakaian harian ya...,2,train,positive
+produk ini sangat bagus menurutku,2,train,positive
+kalau dari pengalamanku dipakai harian tetap nyaman untuk harga segini banget,2,train,positive
+saya suka hasilnya buat pemakaian harian menurutku,2,train,positive
+jujur ya pengalaman saya biasa saja untuk harga segini menurutku!,1,train,neutral
+fiturnya cukup membantu dari pengalaman pertama,1,train,neutral
+fiturnya jalan sesuai deskripsi buat pemakaian harian ya.,1,train,neutral
+menurutku delivery terlambat banget,0,train,negative
+review singkat kualitasnya mantap dari segi fitur ya...,2,train,positive
+menurutku fiturnya sering error untuk harga segini...,0,train,negative
+review singkat produk ini standar dari pengalaman pertama banget,1,train,neutral
+servis cukup biasa untuk harga segini buatku,1,train,neutral
+jujur ya saya suka hasilnya untuk harga segini sih,2,train,positive
+jujur ya worth it banget buat dibeli untuk harga segini banget,2,train,positive
+jujur ya harga masih oke untuk harga segini ya,1,train,neutral
+kalau dari pengalamanku pelayanan cepat dan memuaskan dari segi fitur,2,train,positive
+review singkat fiturnya sering error dari pengalaman pertama menurutku,0,train,negative
+kalau dari pengalamanku hasilnya tidak buruk tidak istimewa buat pemakaian harian ya!,1,train,neutral
+pengiriman terlambat dari segi fitur banget,0,train,negative
+buatku fiturnya jalan sesuai deskripsi dari pengalaman pertama sih,1,train,neutral
+kalau dari pengalamanku delivery normal ga cepat tidak lambat untuk harga segini ya,1,train,neutral
+review singkat harga nggak sebanding dari pengalaman pertama...,0,train,negative
+fiturnya jalan sesuai deskripsi dari segi fitur sih,1,train,neutral
+adminnya susah dihubungi menurutku,0,train,negative
+kalau dari pengalamanku produk ini mengecewakan sih,0,train,negative
+hasilnya tidak buruk tidak istimewa dari segi fitur sih,1,train,neutral
+kalau dari pengalamanku pengiriman tepat waktu buat pemakaian harian ya,2,train,positive
+buatku pelayanan cepat dan memuaskan dari pengalaman pertama ya,2,train,positive
+pengiriman tepat waktu dari pengalaman pertama,2,train,positive
+kalau dari pengalamanku kualitasnya buruk dari segi fitur ya,0,train,negative
+review singkat kualitasnya lumayan menurutku,1,train,neutral
+kalau dari pengalamanku overall masih oke untuk harga segini dari segi fitur ya,1,train,neutral
+menurutku dipakai harian tetap nyaman untuk harga segini menurutku...,2,train,positive
+harga sesuai kualitas dari segi fitur sih,2,train,positive
+kalau dari pengalamanku pelayanan cukup biasa untuk harga segini buatku,1,train,neutral
+review singkat pengiriman sesuai estimasi buat pemakaian harian ya,1,train,neutral
+pengiriman normal ga cepat tidak lambat menurutku,1,train,neutral
+jujur ya harga tidak sebanding untuk harga segini sih,0,train,negative
+buatku pengiriman terlambat,0,train,negative
+menurutku hasilnya nggak buruk tidak istimewa buat pemakaian harian banget!,1,train,neutral
+buatku worth it banget buat dibeli dari pengalaman pertama banget!,2,train,positive
+worth it bgt buat dibeli dari pengalaman pertama,2,train,positive
+buatku barang datang dalam kondisi jelek buatku,0,train,negative
+review singkat fiturnya jalan sesuai deskripsi buat pemakaian harian ya,1,train,neutral
+pelayanan sangat lambat untuk harga segini menurutku!,0,train,negative
+review singkat kwalitasnya mantap buat pemakaian harian sih,2,train,positive
+review singkat kualitasnya buruk buat pemakaian harian banget,0,train,negative
+dipakai harian tetap nyaman banget.,2,train,positive
+buatku kualitasnya mantap buat pemakaian harian menurutku,2,train,positive
+review singkat harga sesuai kualitas dari pengalaman pertama,2,train,positive
+buatku delivery tepat waktu dari pengalaman pertama buatku,2,train,positive
+jujur ya pengiriman sesuai estimasi untuk harga segini ya.,1,train,neutral
+kalau dari pengalamanku sejauh ini aman tapi belum spesial buatku,1,train,neutral
+jujur ya fiturnya sangat membantu dari segi fitur buatku...,2,train,positive
+kalau dari pengalamanku saya suka hasilnya buat pemakaian harian sih,2,train,positive
+jujur ya pelayanan sangat lambat sih,0,train,negative
+saya gak puas menurutku.,0,train,negative
+jujur ya servis cukup biasa untuk harga segini.,1,train,neutral
+buatku saya tidak puas dari segi fitur,0,train,negative
+dipakai sebentar langsung bermasalah buat pemakaian harian bgt,0,train,negative
+review singkat pengalaman saya biasa saja dari segi fitur menurutku,1,train,neutral
+tidak recommended buat pemakaian harian ya,0,train,negative
+jujur ya tidak recommended untuk harga segini banget,0,train,negative
+pengiriman normal tidak cepat tidak lambat banget,1,train,neutral
+kalau dari pengalamanku dipakai sebentar langsung bermasalah untuk harga segini ya,0,train,negative
+menurutku dipakai sebentar langsung bermasalah sih,0,train,negative
+buatku packaging rusak waktu sampai dari segi fitur sih,0,train,negative
+kalau dari pengalamanku saya tidak puas untuk harga segini,0,train,negative
+review singkat pelayanannya cepat dan memuaskan ya,2,train,positive
+jujur ya fiturnya beneran membantu menurutku,2,train,positive
+kalau dari pengalamanku sejauh ini aman tapi belum spesial dari segi fitur,1,train,neutral
+menurutku harga masih oke untuk harga segini ya,1,train,neutral
+review singkat fiturnya cukup membantu dari pengalaman pertama sih,1,train,neutral
+hasilnya nggak buruk tidak istimewa dari pengalaman pertama banget...,1,train,neutral
+menurutku dipakai harian tetap nyaman banget,2,train,positive
+kalau dari pengalamanku produk ini zonk dari segi fitur menurutku...,0,train,negative
+review singkat pelayanan cepat dan memuaskan dari segi fitur sih,2,train,positive
+jujur ya fiturnya cukup membantu,1,train,neutral
+overall masih oke untuk harga segini dari pengalaman pertama sih,1,train,neutral
+jujur ya worth it banget buat dibeli untuk harga segini,2,train,positive
+buatku fiturnya sangat membantu untuk harga segini menurutku,2,train,positive
+buatku fiturnya cukup membantu buat pemakaian harian banget,1,train,neutral
+review singkat pelayanan sangat lambat dari segi fitur,0,train,negative
+review singkat kualitasnya mantap buat pemakaian harian bgt,2,train,positive
+buatku pelayanan cukup biasa dari segi fitur buatku,1,train,neutral
+kalau dari pengalamanku pengiriman tepat waktu sih,2,train,positive
+menurutku dipakai harian tetap nyaman bgt!,2,train,positive
+buatku pengalaman saya biasa saja dari segi fitur,1,train,neutral
+jujur ya packaging rusak waktu sampai dari segi fitur,0,train,negative
+menurutku pelayanan cukup biasa dari pengalaman pertama.,1,train,neutral
+kalau dari pengalamanku fiturnya sangat membantu banget,2,train,positive
+menurutku pengalaman saya biasa saja untuk harga segini,1,train,neutral
+kalau dari pengalamanku pengalaman saya biasa saja,1,train,neutral
+review singkat kualitasnya buruk dari pengalaman pertama banget,0,train,negative
+recommended banget untuk harga segini,2,train,positive
+review singkat saya tidak puas buat pemakaian harian buatku,0,train,negative
+buatku harga nggak sebanding buat pemakaian harian buatku,0,train,negative
+kalau dari pengalamanku sejauh ini aman tapi belum spesial untuk harga segini ya,1,train,neutral
+pelayanan sangat lambat banget,0,train,negative
+review singkat adminnya responsif dan ramah dari pengalaman pertama sih,2,train,positive
+menurutku servis cukup biasa untuk harga segini bnget,1,train,neutral
+menurutku dipakai sebentar langsung bermasalah buat pemakaian harian buatku,0,train,negative
+buatku packaging rapi dan aman untuk harga segini sih,2,train,positive
+menurutku kualitasnya lumayan buat pemakaian harian buatku,1,train,neutral
+kalau dari pengalamanku dipakai sebentar langsung bermasalah untuk harga segini bnget!,0,train,negative
+review singkat produk ini sangat bagus untuk harga segini!,2,train,positive
+buatku harga masih oke dari pengalaman pertama menurutku,1,train,neutral
+review singkat harga tidak sebanding,0,train,negative
+kalau dari pengalamanku barang ini standar banget,1,train,neutral
+jujur ya pengiriman sesuai estimasi dari segi fitur sih,1,train,neutral
+jujur ya saya nggak puas dari segi fitur ya,0,train,negative
+buatku pengiriman normal nggak cepat tidak lambat buat pemakaian harian sih...,1,train,neutral
+review singkat fiturnya sering error buat pemakaian harian buatku.,0,train,negative
+review singkat kualitasnya lumayan dari segi fitur sih,1,train,neutral
+harga tidak sebanding dari pengalaman pertama menurutku,0,train,negative
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian buatku,1,train,neutral
+menurutku fiturnya sangat membantu untuk harga segini sih,2,train,positive
+kalau dari pengalamanku dipakai harian tetap nyaman dari pengalaman pertama sih,2,train,positive
+buatku pengiriman terlambat buat pemakaian harian bnget,0,train,negative
+buatku pengiriman tepat waktu buat pemakaian harian,2,train,positive
+menurutku fiturnya jalan sesuai deskripsi dari segi fitur banget!,1,train,neutral
+review singkat produk ini standar dari segi fitur ya,1,train,neutral
+kalau dari pengalamanku kualitasnya mantap,2,train,positive
+buatku packaging rusak waktu sampai buat pemakaian harian buatku!,0,train,negative
+pengiriman normal gak cepat tidak lambat dari segi fitur sih,1,train,neutral
+menurutku saya suka hasilnya untuk harga segini banget,2,train,positive
+jujur ya barang datang dalam kondisi jelek untuk harga segini banget.,0,train,negative
+review singkat harga masih oke dari segi fitur buatku,1,train,neutral
+tidak recommended buat pemakaian harian buatku,0,train,negative
+kalau dari pengalamanku pengiriman tepat waktu untuk harga segini ya,2,train,positive
+buatku barang datang dalam kondisi jelek untuk harga segini ya,0,train,negative
+kalau dari pengalamanku packaging rusak waktu sampai buat pemakaian harian ya,0,train,negative
+barang ini zonk untuk harga segini banget,0,train,negative
+buatku dipakai harian tetap nyaman dari pengalaman pertama ya!,2,train,positive
+barang datang dalam kondisi jelek buat pemakaian harian,0,train,negative
+menurutku adminnya susah dihubungi untuk harga segini sih!,0,train,negative
+buatku kualitasnya buruk!,0,train,negative
+jujur ya fiturnya sering error buatku,0,train,negative
+jujur ya worth it banget buat dibeli buat pemakaian harian sih,2,train,positive
+buatku produk ini zonk dari pengalaman pertama buatku,0,train,negative
+review singkat recommended banget buat pemakaian harian sih,2,train,positive
+packaging rusak waktu sampai sih,0,train,negative
+menurutku kwalitasnya buruk dari segi fitur,0,train,negative
+menurutku pengiriman normal nggak cepat tidak lambat dari segi fitur,1,train,neutral
+kalau dari pengalamanku produk ini standar dari pengalaman pertama ya,1,train,neutral
+buatku produk ini standar dari pengalaman pertama buatku.,1,train,neutral
+buatku pelayanan cukup biasa buat pemakaian harian banget,1,train,neutral
+fiturnya jalan sesuai deskripsi dari segi fitur buatku,1,train,neutral
+buatku kwalitasnya buruk dari segi fitur buatku,0,train,negative
+review singkat kualitasnya mantap buat pemakaian harian ya,2,train,positive
+menurutku produk ini zonk buatku,0,train,negative
+buatku dipakai harian tetap nyaman dari segi fitur menurutku,2,train,positive
+pengiriman normal ga cepat tidak lambat buat pemakaian harian ya,1,train,neutral
+review singkat saya tidak puas dari pengalaman pertama,0,train,negative
+jujur ya produk ini standar banget!,1,train,neutral
+rekomen banget buat pemakaian harian,2,train,positive
+review singkat sejauh ini aman tapi belum spesial dari pengalaman pertama sih...,1,train,neutral
+kalau dari pengalamanku saya tidak puas,0,train,negative
+review singkat delivery normal tidak cepat tidak lambat dari pengalaman pertama ya,1,train,neutral
+menurutku produk ini standar dari pengalaman pertama ya,1,train,neutral
+buatku packaging rusak waktu sampai buat pemakaian harian sih!,0,train,negative
+review singkat adminnya susah dihubungi dari segi fitur banget,0,train,negative
+menurutku fiturnya sering error buat pemakaian harian,0,train,negative
+jujur ya pelayanan cepat dan memuaskan dari segi fitur ya,2,train,positive
+review singkat overall masih oke untuk harga segini dari segi fitur menurutku,1,train,neutral
+fiturnya cukup membantu dari segi fitur,1,train,neutral
+jujur ya pengiriman sesuai estimasi dari pengalaman pertama banget,1,train,neutral
+review singkat pengalaman saya biasa saja ya,1,train,neutral
+pengiriman sesuai estimasi buat pemakaian harian ya...,1,train,neutral
+jujur ya fiturnya sangat membantu menurutku,2,train,positive
+buatku overall masih oke untuk harga segini dari pengalaman pertama sih,1,train,neutral
+jujur ya adminnya responsif dan ramah untuk harga segini.,2,train,positive
+jujur ya packaging rusak waktu sampai sih,0,train,negative
+review singkat produk ini sangat bagus untuk harga segini menurutku,2,train,positive
+menurutku pelayanan cukup biasa untuk harga segini ya,1,train,neutral
+menurutku adminnya susah dihubungi dari pengalaman pertama banget,0,train,negative
+review singkat pengiriman normal tidak cepat tidak lambat ya,1,train,neutral
+review singkat kualitasnya buruk menurutku,0,train,negative
+fiturnya sering error dari segi fitur ya,0,train,negative
+jujur ya pelayanan cukup biasa dari segi fitur buatku,1,train,neutral
+buatku worth it banget buat dibeli untuk harga segini buatku,2,train,positive
+buatku packaging rapi dan aman ya,2,train,positive
+jujur ya overall masih oke untuk harga segini ya,1,train,neutral
+jujur ya adminnya susah dihubungi menurutku,0,train,negative
+menurutku harga masih oke buat pemakaian harian bnget,1,train,neutral
+produk ini standar dari pengalaman pertama menurutku...,1,train,neutral
+menurutku tidak rekomen menurutku,0,train,negative
+menurutku fiturnya sangat membantu buat pemakaian harian buatku,2,train,positive
+harga masih oke menurutku,1,train,neutral
+buatku worth it banget buat dibeli buat pemakaian harian ya,2,train,positive
+harga sesuai kualitas dari segi fitur ya,2,train,positive
+kalau dari pengalamanku tidak recommended untuk harga segini ya,0,train,negative
+jujur ya pelayanan cukup biasa untuk harga segini sih,1,train,neutral
+jujur ya pengiriman tepat waktu,2,train,positive
+buatku kualitasnya buruk untuk harga segini menurutku,0,train,negative
+menurutku kualitasnya mantap dari pengalaman pertama ya,2,train,positive
+produk ini standar buat pemakaian harian sih,1,train,neutral
+menurutku adminnya responsif dan ramah buat pemakaian harian ya,2,train,positive
+jujur ya kualitasnya mantap dari pengalaman pertama menurutku,2,train,positive
+kalau dari pengalamanku recommended bgt untuk harga segini buatku,2,train,positive
+jujur ya saya gak puas buat pemakaian harian,0,train,negative
+produk ini sangat bagus buat pemakaian harian buatku,2,train,positive
+jujur ya adminnya responsif dan ramah dari segi fitur buatku,2,train,positive
+jujur ya packaging rapi dan aman dari segi fitur ya,2,train,positive
+worth it banget buat dibeli dari pengalaman pertama menurutku,2,train,positive
+review singkat adminnya responsif dan ramah menurutku!,2,train,positive
+buatku saya tidak puas buat pemakaian harian menurutku!,0,train,negative
+jujur ya recommended banget untuk harga segini ya,2,train,positive
+jujur ya fiturnya sangat membantu dari pengalaman pertama menurutku,2,train,positive
+fiturnya sering error untuk harga segini menurutku,0,train,negative
+menurutku dipakai harian tetap nyaman banget,2,train,positive
+kalau dari pengalamanku sejauh ini aman tapi belum spesial sih,1,train,neutral
+jujur ya produk ini sangat bagus untuk harga segini sih,2,train,positive
+kalau dari pengalamanku kualitasnya mantap,2,train,positive
+menurutku adminnya responsif dan ramah dari pengalaman pertama ya!,2,train,positive
+menurutku produk ini standar bgt,1,train,neutral
+buatku sejauh ini aman tapi belum spesial dari pengalaman pertama sih,1,train,neutral
+menurutku pengiriman tepat waktu buat pemakaian harian sih,2,train,positive
+review singkat pengalaman saya biasa saja,1,train,neutral
+jujur ya kualitasnya lumayan dari segi fitur menurutku,1,train,neutral
+review singkat dipakai harian tetap nyaman untuk harga segini,2,train,positive
+review singkat sejauh ini aman tapi belum spesial buat pemakaian harian...,1,train,neutral
+menurutku worth it banget buat dibeli dari segi fitur,2,train,positive
+menurutku dipakai sebentar langsung bermasalah buat pemakaian harian sih...,0,train,negative
+buatku pelayanan sangat lambat dari segi fitur menurutku,0,train,negative
+fiturnya cukup membantu buat pemakaian harian,1,train,neutral
+menurutku harga masih oke untuk harga segini ya,1,train,neutral
+review singkat adminnya susah dihubungi buat pemakaian harian buatku,0,train,negative
+pelayanannya cepat dan memuaskan untuk harga segini buatku,2,train,positive
+kalau dari pengalamanku pengalaman saya biasa saja menurutku,1,train,neutral
+review singkat kualitasnya mantap untuk harga segini,2,train,positive
+harga sesuai kwalitas buat pemakaian harian sih!,2,train,positive
+kualitasnya lumayan buat pemakaian harian,1,train,neutral
+pelayanan sangat lambat sih,0,train,negative
+menurutku packaging rapi dan aman untuk harga segini banget,2,train,positive
+buatku kualitasnya mantap buat pemakaian harian banget.,2,train,positive
+jujur ya sejauh ini aman tapi belum spesial buat pemakaian harian,1,train,neutral
+buatku overall masih oke untuk harga segini buat pemakaian harian,1,train,neutral
+menurutku worth it bnget buat dibeli buatku!,2,train,positive
+buatku harga tidak sebanding dari segi fitur sih,0,train,negative
+saya tidak puas,0,train,negative
+kalau dari pengalamanku harga ga sebanding banget,0,train,negative
+jujur ya sejauh ini aman tapi belum spesial,1,train,neutral
+buatku pelayanan cukup biasa sih,1,train,neutral
+buatku dipakai sebentar langsung bermasalah menurutku,0,train,negative
+review singkat harga tidak sebanding,0,train,negative
+review singkat overall masih oke untuk harga segini ya...,1,train,neutral
+buatku adminnya responsif dan ramah untuk harga segini ya,2,train,positive
+kalau dari pengalamanku dipakai harian tetap nyaman dari pengalaman pertama,2,train,positive
+review singkat pengiriman terlambat buat pemakaian harian menurutku,0,train,negative
+buatku sejauh ini aman tapi belum spesial dari segi fitur sih,1,train,neutral
+kalau dari pengalamanku sejauh ini aman tapi belum spesial dari pengalaman pertama menurutku,1,train,neutral
+jujur ya fiturnya sangat membantu dari segi fitur ya.,2,train,positive
+jujur ya pengiriman tepat waktu,2,train,positive
+kalau dari pengalamanku servis cukup biasa dari segi fitur,1,train,neutral
+jujur ya dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+buatku adminnya responsif dan ramah,2,train,positive
+jujur ya dipakai sebentar langsung bermasalah buat pemakaian harian sih,0,train,negative
+harga gak sebanding menurutku!,0,train,negative
+jujur ya harga tidak sebanding ya,0,train,negative
+review singkat harga masih oke untuk harga segini ya,1,train,neutral
+menurutku produk ini standar buat pemakaian harian ya.,1,train,neutral
+buatku recommended banget dari pengalaman pertama ya,2,train,positive
+jujur ya pelayanan cepat dan ok menurutku.,2,train,positive
+review singkat packaging rusak waktu sampai untuk harga segini sih...,0,train,negative
+kalau dari pengalamanku saya tidak puas dari segi fitur buatku,0,train,negative
+buatku worth it banget buat dibeli dari pengalaman pertama banget,2,train,positive
+buatku sejauh ini aman tapi belum spesial buat pemakaian harian buatku,1,train,neutral
+kalau dari pengalamanku dipakai sebentar langsung bermasalah dari segi fitur sih,0,train,negative
+jujur ya fiturnya sering error dari segi fitur...,0,train,negative
+review singkat harga sesuai kualitas dari pengalaman pertama ya,2,train,positive
+jujur ya tidak recommended untuk harga segini ya,0,train,negative
+jujur ya kualitasnya mantap sih,2,train,positive
+buatku packaging rusak waktu sampai buat pemakaian harian menurutku,0,train,negative
+menurutku kualitasnya mantap sih!,2,train,positive
+jujur ya fiturnya jalan sesuai deskripsi sih,1,train,neutral
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi bgt,1,train,neutral
+menurutku produk ini mengecewakan dari segi fitur,0,train,negative
+menurutku pelayanan cepat dan ok dari pengalaman pertama,2,train,positive
+menurutku dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+buatku produk ini mengecewakan dari pengalaman pertama sih,0,train,negative
+review singkat packaging rapi dan aman buatku,2,train,positive
+buatku kualitasnya mantap buat pemakaian harian sih,2,train,positive
+produk ini mengecewakan dari pengalaman pertama menurutku,0,train,negative
+kalau dari pengalamanku kualitasnya mantap dari segi fitur menurutku...,2,train,positive
+menurutku rekomen banget dari segi fitur banget,2,train,positive
+menurutku kualitasnya buruk,0,train,negative
+kalau dari pengalamanku pelayanannya cepat dan memuaskan buat pemakaian harian buatku,2,train,positive
+kalau dari pengalamanku pelayanan cukup biasa sih,1,train,neutral
+kalau dari pengalamanku adminnya responsif dan ramah untuk harga segini sih,2,train,positive
+jujur ya barang datang dalam kondisi jelek buat pemakaian harian menurutku,0,train,negative
+review singkat pengiriman tepat waktu buat pemakaian harian sih,2,train,positive
+kalau dari pengalamanku saya tidak puas untuk harga segini banget,0,train,negative
+overall masih oke untuk harga segini buat pemakaian harian,1,train,neutral
+review singkat packaging rapi dan aman dari pengalaman pertama sih,2,train,positive
+menurutku adminnya susah dihubungi dari pengalaman pertama buatku.,0,train,negative
+saya tidak puas dari segi fitur banget,0,train,negative
+menurutku pelayanannya cukup biasa banget,1,train,neutral
+buatku barang datang dalam kondisi jelek,0,train,negative
+menurutku delivery sesuai estimasi dari segi fitur banget,1,train,neutral
+menurutku pengalaman saya biasa saja buat pemakaian harian buatku,1,train,neutral
+review singkat hasilnya ga buruk tidak istimewa buat pemakaian harian banget,1,train,neutral
+buatku packaging rusak waktu sampai untuk harga segini buatku,0,train,negative
+review singkat kualitasnya lumayan sih,1,train,neutral
+review singkat pelayanan cepat dan ok dari segi fitur buatku.,2,train,positive
+menurutku dipakai harian tetap nyaman untuk harga segini,2,train,positive
+adminnya susah dihubungi dari segi fitur,0,train,negative
+fiturnya jalan sesuai deskripsi dari segi fitur ya,1,train,neutral
+kalau dari pengalamanku dipakai harian tetap nyaman dari pengalaman pertama menurutku,2,train,positive
+jujur ya worth it banget buat dibeli untuk harga segini sih.,2,train,positive
+kalau dari pengalamanku pengiriman sesuai estimasi untuk harga segini buatku!,1,train,neutral
+jujur ya kualitasnya mantap dari segi fitur ya,2,train,positive
+review singkat saya suka hasilnya buat pemakaian harian...,2,train,positive
+pengalaman saya biasa saja buat pemakaian harian ya,1,train,neutral
+review singkat fiturnya jalan sesuai deskripsi untuk harga segini...,1,train,neutral
+buatku pelayanannya cepat dan memuaskan dari segi fitur banget,2,train,positive
+jujur ya dipakai sebentar langsung bermasalah dari pengalaman pertama ya,0,train,negative
+tidak recommended untuk harga segini,0,train,negative
+review singkat pengiriman normal gak cepat tidak lambat dari segi fitur sih.,1,train,neutral
+review singkat pelayanan cukup biasa dari segi fitur ya,1,train,neutral
+menurutku saya nggak puas sih,0,train,negative
+kalau dari pengalamanku pengiriman tepat waktu dari pengalaman pertama ya,2,train,positive
+buatku fiturnya sangat membantu buat pemakaian harian menurutku,2,train,positive
+review singkat dipakai harian tetap nyaman dari segi fitur menurutku,2,train,positive
+pengalaman saya biasa saja buat pemakaian harian,1,train,neutral
+buatku produk ini sangat bagus buat pemakaian harian sih,2,train,positive
+servis cepat dan memuaskan dari pengalaman pertama sih,2,train,positive
+review singkat produk ini sangat bagus buatku,2,train,positive
+buatku recommended banget banget,2,train,positive
+kualitasnya lumayan dari pengalaman pertama banget,1,train,neutral
+review singkat pengiriman normal tidak cepat tidak lambat dari segi fitur banget,1,train,neutral
+review singkat fiturnya jalan sesuai deskripsi buat pemakaian harian bgt,1,train,neutral
+kalau dari pengalamanku produk ini mengecewakan dari pengalaman pertama menurutku.,0,train,negative
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian ya,1,train,neutral
+review singkat harga sesuai kualitas buat pemakaian harian buatku,2,train,positive
+jujur ya produk ini mengecewakan buat pemakaian harian sih,0,train,negative
+buatku adminnya susah dihubungi dari segi fitur...,0,train,negative
+kualitasnya lumayan buat pemakaian harian menurutku,1,train,neutral
+jujur ya packaging rapi dan aman buat pemakaian harian ya!,2,train,positive
+buatku fiturnya sering error untuk harga segini banget,0,train,negative
+kalau dari pengalamanku produk ini standar buatku,1,train,neutral
+buatku packaging rapi dan aman dari pengalaman pertama buatku,2,train,positive
+review singkat saya tidak puas ya!,0,train,negative
+menurutku fiturnya sering error untuk harga segini sih,0,train,negative
+menurutku kwalitasnya buruk untuk harga segini,0,train,negative
+review singkat fiturnya sangat membantu dari segi fitur sih,2,train,positive
+menurutku dipakai sebentar langsung bermasalah dari segi fitur,0,train,negative
+menurutku pengiriman terlambat dari segi fitur banget,0,train,negative
+kualitasnya lumayan dari segi fitur buatku,1,train,neutral
+jujur ya pelayanan sangat lambat buat pemakaian harian buatku,0,train,negative
+buatku saya suka hasilnya sih,2,train,positive
+kalau dari pengalamanku pengiriman sesuai estimasi dari pengalaman pertama sih,1,train,neutral
+kualitasnya mantap dari pengalaman pertama,2,train,positive
+review singkat packaging rusak waktu sampai dari pengalaman pertama sih!,0,train,negative
+menurutku fiturnya cukup membantu dari segi fitur banget,1,train,neutral
+jujur ya hasilnya tidak buruk tidak istimewa dari pengalaman pertama buatku,1,train,neutral
+menurutku pengiriman terlambat dari segi fitur menurutku,0,train,negative
+menurutku saya suka hasilnya banget.,2,train,positive
+produk ini standar dari segi fitur ya,1,train,neutral
+kalau dari pengalamanku pengiriman tepat waktu buat pemakaian harian sih,2,train,positive
+harga masih oke buatku...,1,train,neutral
+buatku delivery terlambat dari segi fitur sih,0,train,negative
+buatku pengalaman saya biasa saja buat pemakaian harian buatku,1,train,neutral
+jujur ya dipakai harian tetap nyaman ya,2,train,positive
+jujur ya delivery terlambat untuk harga segini banget,0,train,negative
+review singkat pengiriman sesuai estimasi dari pengalaman pertama buatku...,1,train,neutral
+menurutku barang datang dalam kondisi jelek untuk harga segini sih,0,train,negative
+buatku packaging rapi dan aman buat pemakaian harian buatku,2,train,positive
+menurutku hasilnya tidak buruk tidak istimewa dari pengalaman pertama menurutku,1,train,neutral
+review singkat barang datang dalam kondisi jelek untuk harga segini ya,0,train,negative
+produk ini standar dari segi fitur menurutku,1,train,neutral
+jujur ya fiturnya jalan sesuai deskripsi untuk harga segini,1,train,neutral
+menurutku dipakai harian tetap nyaman buat pemakaian harian ya,2,train,positive
+jujur ya packaging rusak waktu sampai dari pengalaman pertama banget!,0,train,negative
+menurutku adminnya susah dihubungi buat pemakaian harian menurutku,0,train,negative
+jujur ya kualitasnya lumayan untuk harga segini sih,1,train,neutral
+review singkat pengiriman terlambat buat pemakaian harian buatku...,0,train,negative
+menurutku fiturnya sangat membantu,2,train,positive
+kalau dari pengalamanku kualitasnya buruk dari pengalaman pertama banget,0,train,negative
+menurutku sejauh ini aman tapi belum spesial untuk harga segini buatku,1,train,neutral
+menurutku harga gak sebanding untuk harga segini banget,0,train,negative
+buatku produk ini standar banget!,1,train,neutral
+adminnya responsif dan ramah buat pemakaian harian,2,train,positive
+buatku fiturnya sering error ya,0,train,negative
+kalau dari pengalamanku tidak recommended untuk harga segini menurutku.,0,train,negative
+fiturnya sangat membantu buatku,2,train,positive
+review singkat adminnya responsif dan ramah.,2,train,positive
+dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+kalau dari pengalamanku saya suka hasilnya buat pemakaian harian sih,2,train,positive
+kalau dari pengalamanku saya suka hasilnya untuk harga segini ya.,2,train,positive
+packaging rusak waktu sampai untuk harga segini buatku,0,train,negative
+fiturnya sangat membantu buat pemakaian harian ya,2,train,positive
+packaging rusak waktu sampai dari pengalaman pertama ya...,0,train,negative
+kalau dari pengalamanku servis cepat dan memuaskan dari pengalaman pertama banget,2,train,positive
+buatku sejauh ini aman tapi belum spesial dari segi fitur ya,1,train,neutral
+review singkat fiturnya sering error dari segi fitur sih,0,train,negative
+buatku barang datang dalam kondisi jelek untuk harga segini ya!,0,train,negative
+review singkat fiturnya sering error untuk harga segini banget.,0,train,negative
+tidak recommended dari pengalaman pertama buatku,0,train,negative
+pelayanan sangat lambat untuk harga segini ya,0,train,negative
+review singkat recommended bgt untuk harga segini ya,2,train,positive
+review singkat harga masih oke dari pengalaman pertama banget,1,train,neutral
+delivery sesuai estimasi buat pemakaian harian sih.,1,train,neutral
+review singkat recommended bgt buat pemakaian harian sih!,2,train,positive
+kalau dari pengalamanku packaging rusak waktu sampai buat pemakaian harian menurutku!,0,train,negative
+kualitasnya lumayan untuk harga segini banget...,1,train,neutral
+kalau dari pengalamanku dipakai harian tetap nyaman untuk harga segini buatku,2,train,positive
+jujur ya kualitasnya mantap dari pengalaman pertama ya...,2,train,positive
+jujur ya produk ini sangat bagus buat pemakaian harian!,2,train,positive
+jujur ya overall masih oke untuk harga segini untuk harga segini buatku,1,train,neutral
+kalau dari pengalamanku barang ini standar buat pemakaian harian banget,1,train,neutral
+kalau dari pengalamanku pelayanan cepat dan ok buat pemakaian harian menurutku,2,train,positive
+jujur ya adminnya susah dihubungi untuk harga segini bgt,0,train,negative
+kualitasnya buruk buat pemakaian harian,0,train,negative
+delivery tepat waktu buat pemakaian harian banget,2,train,positive
+review singkat sejauh ini aman tapi belum spesial buat pemakaian harian ya,1,train,neutral
+menurutku harga masih oke dari pengalaman pertama menurutku,1,train,neutral
+kalau dari pengalamanku recommended banget dari pengalaman pertama menurutku,2,train,positive
+kalau dari pengalamanku pengiriman sesuai estimasi buat pemakaian harian buatku,1,train,neutral
+jujur ya rekomen banget dari segi fitur sih.,2,train,positive
+menurutku harga ga sebanding dari pengalaman pertama,0,train,negative
+kalau dari pengalamanku produk ini sangat bagus dari pengalaman pertama,2,train,positive
+buatku pelayanan beneran lambat bgt,0,train,negative
+buatku produk ini mengecewakan dari segi fitur sih,0,train,negative
+barang datang dalam kondisi jelek dari pengalaman pertama menurutku,0,train,negative
+review singkat fiturnya cukup membantu buat pemakaian harian menurutku,1,train,neutral
+menurutku pengiriman tepat waktu dari segi fitur banget,2,train,positive
+jujur ya dipakai harian tetap nyaman menurutku,2,train,positive
+review singkat pengiriman terlambat buat pemakaian harian ya,0,train,negative
+menurutku harga masih oke dari segi fitur buatku,1,train,neutral
+review singkat pelayanan cukup biasa buatku,1,train,neutral
+packaging rapi dan aman untuk harga segini buatku,2,train,positive
+jujur ya produk ini zonk dari pengalaman pertama,0,train,negative
+kalau dari pengalamanku recommended bgt buat pemakaian harian menurutku,2,train,positive
+jujur ya fiturnya sering error untuk harga segini buatku,0,train,negative
+jujur ya servis sangat lambat buat pemakaian harian banget,0,train,negative
+buatku delivery sesuai estimasi banget,1,train,neutral
+buatku fiturnya jalan sesuai deskripsi menurutku,1,train,neutral
+review singkat pengiriman normal tidak cepat tidak lambat buat pemakaian harian menurutku!,1,train,neutral
+jujur ya sejauh ini aman tapi belum spesial dari segi fitur banget,1,train,neutral
+barang ini sangat bagus buat pemakaian harian sih,2,train,positive
+adminnya susah dihubungi dari segi fitur sih,0,train,negative
+review singkat servis sangat lambat untuk harga segini sih,0,train,negative
+menurutku overall masih oke untuk harga segini ya,1,train,neutral
+kalau dari pengalamanku pengalaman saya biasa saja ya,1,train,neutral
+review singkat adminnya susah dihubungi buat pemakaian harian ya.,0,train,negative
+jujur ya pelayanan cukup biasa menurutku!,1,train,neutral
+kalau dari pengalamanku kwalitasnya lumayan untuk harga segini ya,1,train,neutral
+buatku adminnya susah dihubungi untuk harga segini ya,0,train,negative
+review singkat fiturnya sering error untuk harga segini...,0,train,negative
+review singkat barang ini sangat bagus buat pemakaian harian buatku,2,train,positive
+jujur ya kwalitasnya lumayan dari pengalaman pertama buatku,1,train,neutral
+menurutku pengiriman terlambat,0,train,negative
+jujur ya pelayanan cepat dan memuaskan dari pengalaman pertama ya,2,train,positive
+dipakai sebentar langsung bermasalah banget,0,train,negative
+menurutku saya tidak puas buat pemakaian harian ya,0,train,negative
+dipakai harian tetap nyaman untuk harga segini sih,2,train,positive
+jujur ya kualitasnya mantap sih,2,train,positive
+review singkat pengiriman terlambat buat pemakaian harian ya!,0,train,negative
+fiturnya cukup membantu dari segi fitur,1,train,neutral
+menurutku kualitasnya buruk dari segi fitur ya,0,train,negative
+buatku overall masih oke untuk harga segini untuk harga segini banget,1,train,neutral
+jujur ya hasilnya tidak buruk tidak istimewa untuk harga segini...,1,train,neutral
+review singkat fiturnya cukup membantu buatku,1,train,neutral
+kalau dari pengalamanku pengiriman normal tidak cepat tidak lambat untuk harga segini banget,1,train,neutral
+menurutku harga sesuai kualitas buat pemakaian harian ya,2,train,positive
+hasilnya tidak buruk tidak istimewa dari segi fitur,1,train,neutral
+buatku pengiriman terlambat buat pemakaian harian buatku,0,train,negative
+buatku saya tidak puas untuk harga segini buatku,0,train,negative
+review singkat worth it bgt buat dibeli dari pengalaman pertama buatku...,2,train,positive
+menurutku adminnya susah dihubungi dari pengalaman pertama,0,train,negative
+dipakai harian tetap nyaman untuk harga segini,2,train,positive
+review singkat barang ini zonk dari segi fitur menurutku,0,train,negative
+menurutku sejauh ini aman tapi belum spesial ya!,1,train,neutral
+recommended bgt dari pengalaman pertama sih,2,train,positive
+menurutku harga sesuai kualitas banget,2,train,positive
+jujur ya hasilnya nggak buruk tidak istimewa dari pengalaman pertama menurutku,1,train,neutral
+kalau dari pengalamanku fiturnya sangat membantu menurutku,2,train,positive
+buatku dipakai harian tetap nyaman dari pengalaman pertama sih,2,train,positive
+kualitasnya mantap buat pemakaian harian sih...,2,train,positive
+kalau dari pengalamanku saya suka hasilnya untuk harga segini banget,2,train,positive
+kalau dari pengalamanku worth it banget buat dibeli buat pemakaian harian sih,2,train,positive
+kwalitasnya mantap buat pemakaian harian ya...,2,train,positive
+menurutku kualitasnya buruk buat pemakaian harian ya,0,train,negative
+jujur ya fiturnya cukup membantu untuk harga segini banget,1,train,neutral
+menurutku produk ini sangat bagus dari segi fitur menurutku!,2,train,positive
+kalau dari pengalamanku pelayanan sangat lambat untuk harga segini ya,0,train,negative
+review singkat sejauh ini aman tapi belum spesial dari segi fitur buatku!,1,train,neutral
+review singkat packaging rusak waktu sampai dari pengalaman pertama buatku,0,train,negative
+dipakai sebentar langsung bermasalah menurutku,0,train,negative
+kalau dari pengalamanku adminnya responsif dan ramah dari segi fitur bgt.,2,train,positive
+review singkat pelayanan sangat lambat dari segi fitur bgt,0,train,negative
+buatku produk ini standar untuk harga segini sih,1,train,neutral
+review singkat hasilnya tidak buruk tidak istimewa buat pemakaian harian,1,train,neutral
+review singkat adminnya responsif dan ramah menurutku,2,train,positive
+kualitasnya lumayan dari pengalaman pertama ya,1,train,neutral
+menurutku kualitasnya lumayan sih,1,train,neutral
+jujur ya saya suka hasilnya dari pengalaman pertama buatku,2,train,positive
+jujur ya fiturnya jalan sesuai deskripsi dari segi fitur menurutku,1,train,neutral
+jujur ya kualitasnya mantap untuk harga segini ya,2,train,positive
+buatku fiturnya jalan sesuai deskripsi dari segi fitur buatku,1,train,neutral
+kalau dari pengalamanku kualitasnya mantap buatku,2,train,positive
+review singkat pengiriman tepat waktu untuk harga segini bnget,2,train,positive
+jujur ya fiturnya sering error menurutku,0,train,negative
+fiturnya sangat membantu dari pengalaman pertama sih!,2,train,positive
+review singkat kualitasnya mantap dari segi fitur buatku.,2,train,positive
+buatku pelayanan cukup biasa dari segi fitur ya,1,train,neutral
+buatku kwalitasnya lumayan banget,1,train,neutral
+jujur ya hasilnya nggak buruk tidak istimewa dari segi fitur buatku,1,train,neutral
+kalau dari pengalamanku produk ini zonk untuk harga segini ya,0,train,negative
+jujur ya fiturnya sering error buat pemakaian harian menurutku,0,train,negative
+menurutku fiturnya sering error buat pemakaian harian buatku!,0,train,negative
+jujur ya pengiriman terlambat buat pemakaian harian banget...,0,train,negative
+buatku fiturnya sering error untuk harga segini menurutku,0,train,negative
+pengiriman tepat waktu dari segi fitur ya,2,train,positive
+worth it banget buat dibeli dari segi fitur sih...,2,train,positive
+jujur ya kualitasnya buruk ya...,0,train,negative
+review singkat produk ini mengecewakan buat pemakaian harian ya,0,train,negative
+review singkat overall masih oke untuk harga segini untuk harga segini menurutku,1,train,neutral
+menurutku saya tidak puas dari pengalaman pertama,0,train,negative
+menurutku dipakai sebentar langsung bermasalah buat pemakaian harian menurutku,0,train,negative
+review singkat adminnya responsif dan ramah dari segi fitur,2,train,positive
+menurutku fiturnya jalan sesuai deskripsi buatku,1,train,neutral
+review singkat fiturnya sangat membantu bgt,2,train,positive
+kalau dari pengalamanku fiturnya sering error dari segi fitur menurutku,0,train,negative
+kalau dari pengalamanku harga tidak sebanding dari segi fitur menurutku,0,train,negative
+review singkat worth it banget buat dibeli dari segi fitur banget,2,train,positive
+menurutku packaging rapi dan aman buat pemakaian harian sih!,2,train,positive
+review singkat fiturnya cukup membantu dari segi fitur sih,1,train,neutral
+menurutku pelayanan beneran lambat dari pengalaman pertama banget,0,train,negative
+review singkat adminnya susah dihubungi buatku!,0,train,negative
+jujur ya fiturnya sangat membantu untuk harga segini banget,2,train,positive
+menurutku pengiriman normal gak cepat tidak lambat untuk harga segini,1,train,neutral
+kalau dari pengalamanku produk ini mengecewakan dari segi fitur buatku,0,train,negative
+buatku fiturnya jalan sesuai deskripsi dari segi fitur menurutku,1,train,neutral
+buatku harga masih oke buat pemakaian harian sih,1,train,neutral
+menurutku sejauh ini aman tapi belum spesial dari segi fitur menurutku,1,train,neutral
+review singkat adminnya responsif dan ramah ya,2,train,positive
+jujur ya saya suka hasilnya buat pemakaian harian banget,2,train,positive
+menurutku fiturnya jalan sesuai deskripsi dari pengalaman pertama,1,train,neutral
+jujur ya fiturnya cukup membantu untuk harga segini sih,1,train,neutral
+jujur ya harga sesuai kwalitas buat pemakaian harian banget,2,train,positive
+kalau dari pengalamanku barang datang dalam kondisi jelek buatku.,0,train,negative
+buatku worth it banget buat dibeli dari segi fitur menurutku,2,train,positive
+jujur ya packaging rusak waktu sampai bgt,0,train,negative
+jujur ya pengalaman saya biasa saja buat pemakaian harian,1,train,neutral
+review singkat pelayanan sangat lambat dari segi fitur.,0,train,negative
+kalau dari pengalamanku saya ga puas dari pengalaman pertama bgt...,0,train,negative
+menurutku produk ini sangat bagus dari segi fitur buatku...,2,train,positive
+jujur ya pengiriman terlambat buat pemakaian harian buatku,0,train,negative
+buatku pengiriman tepat waktu dari pengalaman pertama menurutku,2,train,positive
+review singkat fiturnya jalan sesuai deskripsi buat pemakaian harian banget,1,train,neutral
+review singkat pengiriman tepat waktu buat pemakaian harian sih,2,train,positive
+kalau dari pengalamanku fiturnya sering error dari pengalaman pertama menurutku,0,train,negative
+jujur ya adminnya susah dihubungi ya,0,train,negative
+buatku packaging rusak waktu sampai untuk harga segini menurutku,0,train,negative
+buatku kualitasnya buruk dari segi fitur buatku,0,train,negative
+review singkat pengiriman terlambat untuk harga segini menurutku,0,train,negative
+kalau dari pengalamanku packaging rapi dan aman buat pemakaian harian,2,train,positive
+kalau dari pengalamanku kualitasnya mantap buat pemakaian harian ya,2,train,positive
+buatku pelayanan cukup biasa dari segi fitur sih,1,train,neutral
+pelayanan sangat lambat untuk harga segini menurutku,0,train,negative
+jujur ya harga sesuai kwalitas dari pengalaman pertama banget,2,train,positive
+kualitasnya mantap dari pengalaman pertama menurutku,2,train,positive
+review singkat pelayanan beneran lambat buat pemakaian harian ya,0,train,negative
+review singkat dipakai harian tetap nyaman menurutku,2,train,positive
+kalau dari pengalamanku packaging rapi dan aman buat pemakaian harian.,2,train,positive
+menurutku overall masih oke untuk harga segini dari segi fitur menurutku.,1,train,neutral
+review singkat packaging rusak waktu sampai dari segi fitur buatku,0,train,negative
+jujur ya harga tidak sebanding buat pemakaian harian buatku,0,train,negative
+jujur ya saya suka hasilnya dari pengalaman pertama sih,2,train,positive
+buatku fiturnya beneran membantu dari pengalaman pertama banget,2,train,positive
+jujur ya barang ini standar buat pemakaian harian buatku,1,train,neutral
+buatku produk ini zonk dari segi fitur buatku,0,train,negative
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi dari pengalaman pertama buatku,1,train,neutral
+jujur ya saya tidak puas sih,0,train,negative
+kalau dari pengalamanku tidak rekomen menurutku,0,train,negative
+review singkat dipakai sebentar langsung bermasalah buat pemakaian harian,0,train,negative
+kalau dari pengalamanku sejauh ini aman tapi belum spesial untuk harga segini sih,1,train,neutral
+kalau dari pengalamanku barang datang dalam kondisi jelek untuk harga segini buatku,0,train,negative
+buatku kualitasnya buruk buat pemakaian harian buatku,0,train,negative
+review singkat adminnya susah dihubungi buat pemakaian harian.,0,train,negative
+kalau dari pengalamanku servis sangat lambat dari pengalaman pertama,0,train,negative
+fiturnya sangat membantu,2,train,positive
+pengiriman tepat waktu dari pengalaman pertama menurutku,2,train,positive
+buatku pengiriman terlambat untuk harga segini menurutku,0,train,negative
+menurutku harga tidak sebanding dari segi fitur buatku...,0,train,negative
+buatku saya suka hasilnya buat pemakaian harian ya!,2,train,positive
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian sih,1,train,neutral
+buatku recommended banget dari pengalaman pertama buatku,2,train,positive
+kalau dari pengalamanku packaging rusak waktu sampai banget,0,train,negative
+jujur ya dipakai sebentar langsung bermasalah dari pengalaman pertama,0,train,negative
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi untuk harga segini menurutku,1,train,neutral
+kalau dari pengalamanku overall masih oke untuk harga segini dari pengalaman pertama,1,train,neutral
+menurutku gak recommended buat pemakaian harian menurutku,0,train,negative
+jujur ya adminnya susah dihubungi untuk harga segini sih,0,train,negative
+review singkat worth it banget buat dibeli dari segi fitur banget,2,train,positive
+buatku fiturnya sangat membantu buat pemakaian harian menurutku,2,train,positive
+tidak rekomen buat pemakaian harian menurutku,0,train,negative
+buatku dipakai harian tetap nyaman dari pengalaman pertama menurutku,2,train,positive
+jujur ya pengiriman terlambat untuk harga segini banget...,0,train,negative
+kalau dari pengalamanku pelayanan cepat dan memuaskan,2,train,positive
+review singkat packaging rusak waktu sampai dari segi fitur ya,0,train,negative
+jujur ya fiturnya cukup membantu untuk harga segini banget,1,train,neutral
+jujur ya harga sesuai kwalitas dari segi fitur banget,2,train,positive
+harga sesuai kualitas buat pemakaian harian banget,2,train,positive
+packaging rapi dan aman,2,train,positive
+fiturnya jalan sesuai deskripsi dari segi fitur banget,1,train,neutral
+menurutku pengalaman saya biasa saja untuk harga segini ya,1,train,neutral
+pelayanan sangat lambat dari segi fitur ya,0,train,negative
+buatku pengiriman sesuai estimasi untuk harga segini sih,1,train,neutral
+review singkat packaging rapi dan aman buat pemakaian harian ya,2,train,positive
+jujur ya recommended banget banget,2,train,positive
+buatku dipakai sebentar langsung bermasalah untuk harga segini sih,0,train,negative
+jujur ya fiturnya sering error buat pemakaian harian,0,train,negative
+produk ini sangat bagus untuk harga segini banget,2,train,positive
+buatku sejauh ini aman tapi belum spesial untuk harga segini menurutku,1,train,neutral
+review singkat fiturnya jalan sesuai deskripsi dari segi fitur ya,1,train,neutral
+jujur ya adminnya responsif dan ramah dari pengalaman pertama,2,train,positive
+kalau dari pengalamanku pengiriman sesuai estimasi dari pengalaman pertama banget,1,train,neutral
+buatku fiturnya sering error buat pemakaian harian buatku,0,train,negative
+review singkat dipakai sebentar langsung bermasalah dari segi fitur sih,0,train,negative
+menurutku sejauh ini aman tapi belum spesial untuk harga segini banget,1,train,neutral
+jujur ya pengiriman normal tidak cepat tidak lambat menurutku,1,train,neutral
+fiturnya sangat membantu buat pemakaian harian menurutku,2,train,positive
+kualitasnya mantap sih,2,train,positive
+kalau dari pengalamanku packaging rusak waktu sampai buat pemakaian harian sih.,0,train,negative
+menurutku harga tidak sebanding untuk harga segini banget!,0,train,negative
+kalau dari pengalamanku pengiriman tepat waktu dari pengalaman pertama menurutku!,2,train,positive
+review singkat packaging rapi dan aman dari pengalaman pertama,2,train,positive
+menurutku fiturnya jalan sesuai deskripsi dari pengalaman pertama buatku,1,train,neutral
+jujur ya produk ini standar banget,1,train,neutral
+jujur ya fiturnya sangat membantu menurutku,2,train,positive
+jujur ya kualitasnya mantap dari pengalaman pertama menurutku,2,train,positive
+kalau dari pengalamanku packaging rapi dan aman banget,2,train,positive
+buatku pelayanan beneran lambat dari segi fitur,0,train,negative
+kalau dari pengalamanku pengiriman sesuai estimasi buat pemakaian harian sih,1,train,neutral
+menurutku harga ga sebanding dari pengalaman pertama buatku,0,train,negative
+menurutku pengiriman terlambat buat pemakaian harian ya,0,train,negative
+jujur ya produk ini sangat bagus ya,2,train,positive
+jujur ya fiturnya beneran membantu dari segi fitur ya,2,train,positive
+buatku packaging rapi dan aman dari segi fitur buatku,2,train,positive
+buatku dipakai harian tetap nyaman buat pemakaian harian,2,train,positive
+kalau dari pengalamanku fiturnya sangat membantu dari segi fitur bnget,2,train,positive
+packaging rapi dan aman menurutku,2,train,positive
+worth it banget buat dibeli dari pengalaman pertama ya,2,train,positive
+jujur ya barang ini standar untuk harga segini buatku!,1,train,neutral
+jujur ya produk ini zonk banget,0,train,negative
+menurutku pengiriman normal nggak cepat tidak lambat untuk harga segini bgt,1,train,neutral
+buatku dipakai sebentar langsung bermasalah buat pemakaian harian,0,train,negative
+jujur ya tidak recommended sih!,0,train,negative
+sejauh ini aman tapi belum spesial buat pemakaian harian ya.,1,train,neutral
+buatku saya suka hasilnya buat pemakaian harian,2,train,positive
+buatku kualitasnya lumayan,1,train,neutral
+buatku tidak recommended buat pemakaian harian buatku,0,train,negative
+saya ga puas dari pengalaman pertama sih,0,train,negative
+menurutku produk ini zonk dari segi fitur bgt,0,train,negative
+review singkat kualitasnya mantap untuk harga segini sih,2,train,positive
+kalau dari pengalamanku pengiriman terlambat dari pengalaman pertama sih,0,train,negative
+kalau dari pengalamanku harga masih oke bnget,1,train,neutral
+buatku sejauh ini aman tapi belum spesial untuk harga segini sih,1,train,neutral
+buatku ga recommended untuk harga segini,0,train,negative
+kalau dari pengalamanku harga sesuai kualitas untuk harga segini,2,train,positive
+kalau dari pengalamanku overall masih oke untuk harga segini untuk harga segini ya,1,train,neutral
+jujur ya barang datang dalam kondisi jelek dari segi fitur sih,0,train,negative
+review singkat kualitasnya lumayan dari pengalaman pertama menurutku...,1,train,neutral
+jujur ya harga sesuai kualitas dari pengalaman pertama banget,2,train,positive
+menurutku sejauh ini aman tapi belum spesial dari pengalaman pertama buatku,1,train,neutral
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian,1,train,neutral
+jujur ya pelayanan sangat lambat untuk harga segini banget,0,train,negative
+kalau dari pengalamanku fiturnya cukup membantu ya,1,train,neutral
+kalau dari pengalamanku adminnya responsif dan ramah buat pemakaian harian buatku,2,train,positive
+kalau dari pengalamanku kualitasnya mantap buat pemakaian harian,2,train,positive
+review singkat pengiriman tepat waktu dari pengalaman pertama banget,2,train,positive
+buatku fiturnya sering error buat pemakaian harian buatku,0,train,negative
+review singkat fiturnya jalan sesuai deskripsi untuk harga segini menurutku,1,train,neutral
+kalau dari pengalamanku adminnya susah dihubungi dari segi fitur menurutku,0,train,negative
+kalau dari pengalamanku produk ini standar buat pemakaian harian,1,train,neutral
+jujur ya fiturnya sangat membantu menurutku.,2,train,positive
+buatku packaging rusak waktu sampai untuk harga segini buatku,0,train,negative
+buatku gak rekomen buat pemakaian harian ya...,0,train,negative
+buatku kualitasnya buruk dari pengalaman pertama menurutku,0,train,negative
+menurutku dipakai harian tetap nyaman untuk harga segini banget,2,train,positive
+jujur ya adminnya responsif dan ramah dari pengalaman pertama banget.,2,train,positive
+pelayanan cukup biasa dari pengalaman pertama,1,train,neutral
+jujur ya pengalaman saya biasa saja buatku,1,train,neutral
+kalau dari pengalamanku overall masih oke untuk harga segini untuk harga segini buatku,1,train,neutral
+kalau dari pengalamanku saya tidak puas menurutku,0,train,negative
+review singkat adminnya susah dihubungi dari segi fitur buatku,0,train,negative
+dipakai harian tetap nyaman dari pengalaman pertama ya,2,train,positive
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi dari segi fitur sih,1,train,neutral
+menurutku harga tidak sebanding buat pemakaian harian menurutku,0,train,negative
+buatku adminnya responsif dan ramah menurutku,2,train,positive
+review singkat pelayanan cukup biasa untuk harga segini sih.,1,train,neutral
+buatku packaging rusak waktu sampai dari segi fitur ya,0,train,negative
+worth it bnget buat dibeli dari pengalaman pertama banget,2,train,positive
+produk ini standar buat pemakaian harian banget,1,train,neutral
+jujur ya fiturnya sering error buatku,0,train,negative
+menurutku harga sesuai kualitas buat pemakaian harian menurutku,2,train,positive
+menurutku kualitasnya lumayan buat pemakaian harian banget!,1,train,neutral
+kalau dari pengalamanku pengiriman terlambat buat pemakaian harian buatku,0,train,negative
+buatku produk ini sangat bagus dari segi fitur menurutku,2,train,positive
+kalau dari pengalamanku adminnya responsif dan ramah untuk harga segini banget,2,train,positive
+buatku sejauh ini aman tapi belum spesial dari pengalaman pertama ya,1,train,neutral
+buatku fiturnya cukup membantu untuk harga segini ya,1,train,neutral
+pelayanan cukup biasa buat pemakaian harian...,1,train,neutral
+jujur ya produk ini mengecewakan buat pemakaian harian sih,0,train,negative
+buatku hasilnya nggak buruk tidak istimewa buat pemakaian harian menurutku,1,train,neutral
+buatku pengiriman sesuai estimasi untuk harga segini buatku,1,train,neutral
+jujur ya pengiriman normal gak cepat tidak lambat dari segi fitur menurutku,1,train,neutral
+buatku sejauh ini aman tapi belum spesial dari segi fitur,1,train,neutral
+buatku packaging rusak waktu sampai buat pemakaian harian banget,0,train,negative
+menurutku adminnya susah dihubungi,0,train,negative
+buatku worth it banget buat dibeli banget,2,train,positive
+jujur ya pengiriman normal tidak cepat tidak lambat buat pemakaian harian banget,1,train,neutral
+kalau dari pengalamanku fiturnya cukup membantu dari segi fitur menurutku,1,train,neutral
+kalau dari pengalamanku pengiriman sesuai estimasi dari segi fitur sih,1,train,neutral
+jujur ya pengiriman sesuai estimasi dari pengalaman pertama buatku,1,train,neutral
+review singkat saya suka hasilnya dari pengalaman pertama sih,2,train,positive
+pengiriman terlambat!,0,train,negative
+review singkat pelayanan sangat lambat buat pemakaian harian buatku,0,train,negative
+menurutku worth it bgt buat dibeli dari pengalaman pertama buatku,2,train,positive
+kualitasnya mantap dari pengalaman pertama menurutku,2,train,positive
+buatku adminnya responsif dan ramah dari pengalaman pertama,2,train,positive
+review singkat recommended bgt untuk harga segini ya,2,train,positive
+kalau dari pengalamanku fiturnya sangat membantu dari pengalaman pertama buatku,2,train,positive
+saya tidak puas buat pemakaian harian buatku,0,train,negative
+review singkat fiturnya sangat membantu untuk harga segini sih,2,train,positive
+review singkat kualitasnya lumayan dari pengalaman pertama menurutku,1,train,neutral
+barang datang dalam kondisi jelek untuk harga segini buatku,0,train,negative
+jujur ya packaging rusak waktu sampai dari segi fitur menurutku!,0,train,negative
+kalau dari pengalamanku pengiriman normal nggak cepat tidak lambat buatku,1,train,neutral
+review singkat adminnya susah dihubungi buat pemakaian harian menurutku,0,train,negative
+menurutku fiturnya cukup membantu dari pengalaman pertama menurutku,1,train,neutral
+kualitasnya buruk dari pengalaman pertama sih,0,train,negative
+kalau dari pengalamanku pengiriman tepat waktu dari pengalaman pertama ya,2,train,positive
+menurutku harga sesuai kualitas dari pengalaman pertama menurutku,2,train,positive
+review singkat pelayanan cukup biasa dari pengalaman pertama,1,train,neutral
+review singkat fiturnya jalan sesuai deskripsi dari segi fitur,1,train,neutral
+kalau dari pengalamanku pengalaman saya biasa saja dari segi fitur sih,1,train,neutral
+worth it banget buat dibeli dari pengalaman pertama,2,train,positive
+menurutku dipakai harian tetap nyaman dari segi fitur sih,2,train,positive
+jujur ya fiturnya jalan sesuai deskripsi dari pengalaman pertama menurutku,1,train,neutral
+buatku pengiriman normal tidak cepat tidak lambat buatku,1,train,neutral
+jujur ya pelayanannya sangat lambat dari pengalaman pertama sih,0,train,negative
+review singkat packaging rapi dan aman buat pemakaian harian menurutku!,2,train,positive
+review singkat fiturnya cukup membantu dari segi fitur sih,1,train,neutral
+worth it bgt buat dibeli buat pemakaian harian ya,2,train,positive
+buatku fiturnya sangat membantu buatku,2,train,positive
+kualitasnya lumayan dari segi fitur ya,1,train,neutral
+dipakai harian tetap nyaman buat pemakaian harian ya,2,train,positive
+produk ini mengecewakan untuk harga segini menurutku,0,train,negative
+buatku harga sesuai kualitas untuk harga segini buatku,2,train,positive
+review singkat barang datang dalam kondisi jelek untuk harga segini,0,train,negative
+kalau dari pengalamanku dipakai harian tetap nyaman buatku,2,train,positive
+packaging rapi dan aman menurutku,2,train,positive
+worth it bgt buat dibeli untuk harga segini...,2,train,positive
+buatku packaging rapi dan aman bgt,2,train,positive
+menurutku kualitasnya mantap buat pemakaian harian bnget,2,train,positive
+kalau dari pengalamanku pelayanan sangat lambat ya,0,train,negative
+review singkat pengalaman saya biasa saja buat pemakaian harian ya,1,train,neutral
+menurutku barang ini beneran bagus banget,2,train,positive
+buatku pelayanan beneran lambat buat pemakaian harian sih...,0,train,negative
+jujur ya kualitasnya buruk dari segi fitur sih,0,train,negative
+barang datang dalam kondisi jelek untuk harga segini.,0,train,negative
+jujur ya adminnya responsif dan ramah dari segi fitur menurutku,2,train,positive
+fiturnya sering error bnget...,0,train,negative
+adminnya responsif dan ramah menurutku,2,train,positive
+jujur ya dipakai harian tetap nyaman menurutku,2,train,positive
+review singkat saya tidak puas menurutku.,0,train,negative
+servis sangat lambat dari pengalaman pertama ya,0,train,negative
+jujur ya kualitasnya mantap untuk harga segini ya,2,train,positive
+buatku saya tidak puas dari segi fitur!,0,train,negative
+worth it bgt buat dibeli untuk harga segini menurutku,2,train,positive
+buatku kualitasnya buruk dari segi fitur menurutku,0,train,negative
+adminnya susah dihubungi buat pemakaian harian banget.,0,train,negative
+buatku dipakai sebentar langsung bermasalah dari pengalaman pertama,0,train,negative
+review singkat saya suka hasilnya dari segi fitur bgt,2,train,positive
+review singkat dipakai harian tetap nyaman untuk harga segini bgt,2,train,positive
+review singkat fiturnya jalan sesuai deskripsi untuk harga segini buatku,1,train,neutral
+jujur ya sejauh ini aman tapi belum spesial untuk harga segini bgt,1,train,neutral
+review singkat packaging rusak waktu sampai sih,0,train,negative
+kalau dari pengalamanku produk ini mengecewakan dari segi fitur sih,0,train,negative
+buatku pengiriman tepat waktu dari segi fitur menurutku,2,train,positive
+buatku harga tidak sebanding dari pengalaman pertama menurutku,0,train,negative
+buatku sejauh ini aman tapi belum spesial dari pengalaman pertama buatku,1,train,neutral
+kalau dari pengalamanku harga sesuai kualitas buat pemakaian harian...,2,train,positive
+jujur ya ga recommended dari pengalaman pertama ya,0,train,negative
+jujur ya pengalaman saya biasa saja buat pemakaian harian,1,train,neutral
+buatku pengiriman tepat waktu dari segi fitur,2,train,positive
+kalau dari pengalamanku packaging rapi dan aman untuk harga segini buatku,2,train,positive
+buatku worth it banget buat dibeli untuk harga segini menurutku,2,train,positive
+fiturnya jalan sesuai deskripsi buat pemakaian harian menurutku,1,train,neutral
+saya tidak puas untuk harga segini buatku,0,train,negative
+menurutku kualitasnya lumayan buat pemakaian harian ya,1,train,neutral
+review singkat dipakai harian tetap nyaman dari segi fitur menurutku,2,train,positive
+saya tidak puas!,0,train,negative
+buatku pengiriman normal gak cepat tidak lambat untuk harga segini menurutku,1,train,neutral
+kalau dari pengalamanku saya suka hasilnya dari segi fitur banget,2,train,positive
+menurutku fiturnya jalan sesuai deskripsi buatku,1,train,neutral
+menurutku pelayanan cepat dan ok untuk harga segini ya,2,train,positive
+sejauh ini aman tapi belum spesial untuk harga segini buatku,1,train,neutral
+review singkat harga tidak sebanding untuk harga segini buatku,0,train,negative
+menurutku packaging rusak waktu sampai,0,train,negative
+review singkat kualitasnya buruk dari segi fitur bnget!,0,train,negative
+buatku recommended banget banget,2,train,positive
+kalau dari pengalamanku hasilnya tidak buruk tidak istimewa dari segi fitur banget,1,train,neutral
+menurutku produk ini mengecewakan sih,0,train,negative
+jujur ya fiturnya sering error dari segi fitur banget,0,train,negative
+buatku adminnya responsif dan ramah dari pengalaman pertama sih,2,train,positive
+menurutku fiturnya cukup membantu,1,train,neutral
+menurutku pelayanan sangat lambat dari segi fitur menurutku,0,train,negative
+produk ini sangat bagus dari pengalaman pertama sih,2,train,positive
+jujur ya adminnya responsif dan ramah buat pemakaian harian,2,train,positive
+buatku harga masih oke dari pengalaman pertama...,1,train,neutral
+buatku barang ini sangat bagus dari segi fitur menurutku,2,train,positive
+kualitasnya buruk buat pemakaian harian sih,0,train,negative
+review singkat rekomen banget dari pengalaman pertama sih,2,train,positive
+buatku harga tidak sebanding buat pemakaian harian ya,0,train,negative
+menurutku pengiriman normal tidak cepat tidak lambat dari pengalaman pertama menurutku,1,train,neutral
+menurutku sejauh ini aman tapi belum spesial dari segi fitur,1,train,neutral
+buatku fiturnya jalan sesuai deskripsi dari pengalaman pertama ya!,1,train,neutral
+overall masih oke untuk harga segini buat pemakaian harian ya,1,train,neutral
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian,1,train,neutral
+menurutku fiturnya cukup membantu dari pengalaman pertama,1,train,neutral
+sejauh ini aman tapi belum spesial ya,1,train,neutral
+packaging rusak waktu sampai buat pemakaian harian,0,train,negative
+harga gak sebanding banget,0,train,negative
+review singkat produk ini standar dari pengalaman pertama,1,train,neutral
+menurutku produk ini standar untuk harga segini buatku,1,train,neutral
+kalau dari pengalamanku barang datang dalam kondisi jelek dari pengalaman pertama banget,0,train,negative
+review singkat harga sesuai kualitas dari segi fitur buatku...,2,train,positive
+kalau dari pengalamanku packaging rapi dan aman dari pengalaman pertama menurutku,2,train,positive
+harga masih oke buat pemakaian harian ya,1,train,neutral
+pelayanan cukup biasa menurutku.,1,train,neutral
+buatku recommended bnget sih,2,train,positive
+kalau dari pengalamanku fiturnya sering error buat pemakaian harian,0,train,negative
+jujur ya fiturnya cukup membantu buat pemakaian harian sih,1,train,neutral
+tidak recommended untuk harga segini sih,0,train,negative
+review singkat dipakai sebentar langsung bermasalah menurutku,0,train,negative
+buatku pengiriman sesuai estimasi untuk harga segini menurutku,1,train,neutral
+buatku packaging rapi dan aman dari pengalaman pertama ya,2,train,positive
+review singkat pengalaman saya biasa saja buat pemakaian harian menurutku...,1,train,neutral
+jujur ya kualitasnya lumayan buatku!,1,train,neutral
+kalau dari pengalamanku barang datang dalam kondisi jelek untuk harga segini sih!,0,train,negative
+menurutku pelayanan sangat lambat dari pengalaman pertama menurutku,0,train,negative
+review singkat pelayanan cukup biasa buat pemakaian harian!,1,train,neutral
+jujur ya dipakai harian tetap nyaman dari segi fitur buatku,2,train,positive
+servis cukup biasa sih,1,train,neutral
+review singkat worth it banget buat dibeli dari pengalaman pertama ya.,2,train,positive
+menurutku adminnya susah dihubungi buat pemakaian harian banget...,0,train,negative
+review singkat fiturnya sangat membantu sih,2,train,positive
+buatku barang datang dalam kondisi jelek untuk harga segini,0,train,negative
+jujur ya overall masih oke untuk harga segini dari pengalaman pertama banget!,1,train,neutral
+kalau dari pengalamanku fiturnya sering error dari segi fitur,0,train,negative
+kalau dari pengalamanku pengalaman saya biasa saja buat pemakaian harian sih,1,train,neutral
+menurutku dipakai sebentar langsung bermasalah untuk harga segini ya.,0,train,negative
+produk ini sangat bagus untuk harga segini,2,train,positive
+review singkat kualitasnya lumayan untuk harga segini ya...,1,train,neutral
+tidak recommended dari segi fitur ya,0,train,negative
+buatku hasilnya gak buruk tidak istimewa untuk harga segini banget,1,train,neutral
+jujur ya kualitasnya lumayan buat pemakaian harian menurutku.,1,train,neutral
+jujur ya pelayanan cepat dan memuaskan menurutku,2,train,positive
+menurutku pengalaman saya biasa saja sih,1,train,neutral
+review singkat pengalaman saya biasa saja dari segi fitur ya!,1,train,neutral
+buatku harga masih oke untuk harga segini banget,1,train,neutral
+menurutku fiturnya sering error untuk harga segini sih,0,train,negative
+menurutku saya tidak puas dari pengalaman pertama ya,0,train,negative
+fiturnya jalan sesuai deskripsi dari segi fitur banget,1,train,neutral
+jujur ya fiturnya jalan sesuai deskripsi untuk harga segini sih,1,train,neutral
+review singkat overall masih oke untuk harga segini untuk harga segini ya,1,train,neutral
+pengiriman tepat waktu buatku,2,train,positive
+fiturnya beneran membantu dari segi fitur banget,2,train,positive
+kalau dari pengalamanku kualitasnya lumayan dari pengalaman pertama sih,1,train,neutral
+buatku dipakai harian tetap nyaman menurutku,2,train,positive
+kalau dari pengalamanku adminnya susah dihubungi dari pengalaman pertama menurutku,0,train,negative
+jujur ya fiturnya cukup membantu dari pengalaman pertama sih,1,train,neutral
+jujur ya servis cepat dan memuaskan dari segi fitur,2,train,positive
+review singkat fiturnya sangat membantu ya,2,train,positive
+menurutku harga masih oke buat pemakaian harian ya,1,train,neutral
+packaging rusak waktu sampai dari pengalaman pertama ya,0,train,negative
+recommended bgt dari segi fitur ya,2,train,positive
+kalau dari pengalamanku adminnya responsif dan ramah sih...,2,train,positive
+jujur ya kualitasnya buruk,0,train,negative
+pengiriman terlambat,0,train,negative
+kalau dari pengalamanku harga ga sebanding dari segi fitur sih,0,train,negative
+kalau dari pengalamanku pelayanan cukup biasa sih...,1,train,neutral
+review singkat hasilnya tidak buruk tidak istimewa untuk harga segini bgt,1,train,neutral
+menurutku kualitasnya mantap untuk harga segini,2,train,positive
+kalau dari pengalamanku hasilnya nggak buruk tidak istimewa untuk harga segini sih...,1,train,neutral
+review singkat pelayanan cepat dan ok bnget,2,train,positive
+menurutku saya suka hasilnya menurutku,2,train,positive
+menurutku harga tidak sebanding dari pengalaman pertama sih,0,train,negative
+menurutku pengalaman saya biasa saja dari pengalaman pertama sih,1,train,neutral
+review singkat barang ini standar buat pemakaian harian sih,1,train,neutral
+kalau dari pengalamanku packaging rapi dan aman buatku,2,train,positive
+kalau dari pengalamanku harga masih oke untuk harga segini ya,1,train,neutral
+menurutku dipakai sebentar langsung bermasalah untuk harga segini banget,0,train,negative
+kalau dari pengalamanku adminnya responsif dan ramah buat pemakaian harian buatku!,2,train,positive
+buatku produk ini sangat bagus menurutku...,2,train,positive
+harga nggak sebanding ya,0,train,negative
+menurutku overall masih oke untuk harga segini buat pemakaian harian banget,1,train,neutral
+buatku produk ini beneran bagus dari segi fitur buatku,2,train,positive
+buatku packaging rapi dan aman dari pengalaman pertama ya,2,train,positive
+menurutku fiturnya jalan sesuai deskripsi buat pemakaian harian sih!,1,train,neutral
+review singkat adminnya responsif dan ramah untuk harga segini sih,2,train,positive
+menurutku hasilnya tidak buruk tidak istimewa dari pengalaman pertama sih,1,train,neutral
+buatku packaging rapi dan aman dari pengalaman pertama,2,train,positive
+kalau dari pengalamanku pengiriman sesuai estimasi buat pemakaian harian bgt,1,train,neutral
+buatku tidak recommended untuk harga segini,0,validation,negative
+menurutku pengiriman sesuai estimasi buat pemakaian harian,1,validation,neutral
+review singkat barang datang dalam kondisi jelek untuk harga segini buatku,0,validation,negative
+menurutku pelayanan cukup biasa dari segi fitur,1,validation,neutral
+review singkat fiturnya sangat membantu untuk harga segini sih,2,validation,positive
+menurutku kualitasnya lumayan dari pengalaman pertama ya...,1,validation,neutral
+review singkat dipakai harian tetap nyaman sih,2,validation,positive
+adminnya susah dihubungi!,0,validation,negative
+kalau dari pengalamanku packaging rapi dan aman untuk harga segini bnget.,2,validation,positive
+harga tidak sebanding,0,validation,negative
+hasilnya tidak buruk tidak istimewa dari segi fitur,1,validation,neutral
+kalau dari pengalamanku produk ini standar dari segi fitur menurutku!,1,validation,neutral
+adminnya susah dihubungi buat pemakaian harian ya,0,validation,negative
+review singkat fiturnya jalan sesuai deskripsi dari segi fitur banget,1,validation,neutral
+dipakai sebentar langsung bermasalah dari segi fitur ya,0,validation,negative
+kalau dari pengalamanku pelayanan beneran lambat sih,0,validation,negative
+kualitasnya buruk ya,0,validation,negative
+buatku harga sesuai kualitas buatku,2,validation,positive
+buatku kwalitasnya lumayan buatku,1,validation,neutral
+jujur ya pengiriman normal tidak cepat tidak lambat menurutku,1,validation,neutral
+jujur ya kualitasnya lumayan buat pemakaian harian,1,validation,neutral
+review singkat produk ini mengecewakan untuk harga segini sih,0,validation,negative
+buatku tidak recommended untuk harga segini buatku,0,validation,negative
+review singkat overall masih oke untuk harga segini dari pengalaman pertama banget,1,validation,neutral
+jujur ya saya tidak puas dari pengalaman pertama sih,0,validation,negative
+fiturnya sering error dari pengalaman pertama buatku.,0,validation,negative
+buatku overall masih oke untuk harga segini dari segi fitur,1,validation,neutral
+review singkat pengiriman terlambat ya,0,validation,negative
+jujur ya pengiriman sesuai estimasi untuk harga segini buatku,1,validation,neutral
+buatku pengiriman sesuai estimasi menurutku,1,validation,neutral
+jujur ya worth it bgt buat dibeli dari segi fitur sih!,2,validation,positive
+buatku pelayanan sangat lambat dari pengalaman pertama,0,validation,negative
+fiturnya jalan sesuai deskripsi untuk harga segini menurutku,1,validation,neutral
+kalau dari pengalamanku tidak recommended buat pemakaian harian menurutku.,0,validation,negative
+menurutku harga masih oke dari segi fitur buatku,1,validation,neutral
+review singkat pengalaman saya biasa saja dari pengalaman pertama banget,1,validation,neutral
+menurutku dipakai harian tetap nyaman dari segi fitur sih,2,validation,positive
+buatku dipakai sebentar langsung bermasalah untuk harga segini sih!,0,validation,negative
+menurutku pelayanan cepat dan ok buat pemakaian harian buatku!,2,validation,positive
+jujur ya fiturnya beneran membantu buatku!,2,validation,positive
+kalau dari pengalamanku sejauh ini aman tapi belum spesial buat pemakaian harian menurutku!,1,validation,neutral
+kalau dari pengalamanku pengalaman saya biasa saja dari segi fitur menurutku,1,validation,neutral
+jujur ya sejauh ini aman tapi belum spesial dari segi fitur,1,validation,neutral
+dipakai sebentar langsung bermasalah buat pemakaian harian buatku,0,validation,negative
+fiturnya beneran membantu untuk harga segini,2,validation,positive
+barang datang dalam kondisi jelek dari pengalaman pertama ya.,0,validation,negative
+adminnya responsif dan ramah buat pemakaian harian ya,2,validation,positive
+harga nggak sebanding buat pemakaian harian ya...,0,validation,negative
+kalau dari pengalamanku harga tidak sebanding sih,0,validation,negative
+review singkat kualitasnya buruk buat pemakaian harian buatku...,0,validation,negative
+menurutku dipakai sebentar langsung bermasalah dari segi fitur banget,0,validation,negative
+menurutku fiturnya cukup membantu buat pemakaian harian ya.,1,validation,neutral
+kalau dari pengalamanku overall masih oke untuk harga segini buat pemakaian harian...,1,validation,neutral
+pelayanan cukup biasa dari segi fitur menurutku,1,validation,neutral
+kalau dari pengalamanku pengiriman terlambat dari pengalaman pertama ya.,0,validation,negative
+kalau dari pengalamanku dipakai sebentar langsung bermasalah dari segi fitur banget,0,validation,negative
+review singkat harga sesuai kualitas buat pemakaian harian banget,2,validation,positive
+menurutku packaging rapi dan aman,2,validation,positive
+jujur ya harga masih oke,1,validation,neutral
+menurutku recommended banget buat pemakaian harian ya,2,validation,positive
+kalau dari pengalamanku recommended bnget dari segi fitur buatku...,2,validation,positive
+menurutku kwalitasnya mantap buat pemakaian harian buatku,2,validation,positive
+menurutku overall masih oke untuk harga segini sih.,1,validation,neutral
+buatku fiturnya sering error dari pengalaman pertama sih,0,validation,negative
+menurutku fiturnya jalan sesuai deskripsi dari segi fitur ya,1,validation,neutral
+review singkat saya gak puas buatku,0,validation,negative
+jujur ya harga masih oke dari segi fitur,1,validation,neutral
+harga sesuai kualitas buat pemakaian harian,2,validation,positive
+recommended banget buat pemakaian harian,2,validation,positive
+review singkat packaging rusak waktu sampai,0,validation,negative
+menurutku fiturnya jalan sesuai deskripsi untuk harga segini sih,1,validation,neutral
+kalau dari pengalamanku pengiriman tepat waktu dari segi fitur menurutku,2,validation,positive
+review singkat pengalaman saya biasa saja untuk harga segini sih,1,validation,neutral
+kalau dari pengalamanku delivery tepat waktu dari pengalaman pertama ya,2,validation,positive
+jujur ya adminnya responsif dan ramah dari segi fitur ya,2,validation,positive
+jujur ya fiturnya jalan sesuai deskripsi menurutku,1,validation,neutral
+kalau dari pengalamanku dipakai harian tetap nyaman untuk harga segini menurutku,2,validation,positive
+menurutku worth it bnget buat dibeli dari segi fitur sih,2,validation,positive
+buatku nggak rekomen buatku,0,validation,negative
+menurutku recommended banget buat pemakaian harian sih.,2,validation,positive
+dipakai harian tetap nyaman dari pengalaman pertama banget,2,validation,positive
+buatku pelayanan cepat dan ok buat pemakaian harian ya,2,validation,positive
+kalau dari pengalamanku produk ini standar menurutku,1,validation,neutral
+review singkat adminnya susah dihubungi menurutku,0,validation,negative
+review singkat produk ini standar untuk harga segini ya,1,validation,neutral
+buatku dipakai sebentar langsung bermasalah dari pengalaman pertama,0,validation,negative
+jujur ya dipakai harian tetap nyaman buat pemakaian harian menurutku,2,validation,positive
+jujur ya produk ini beneran bagus dari pengalaman pertama menurutku,2,validation,positive
+kalau dari pengalamanku pelayanan beneran lambat dari segi fitur buatku,0,validation,negative
+menurutku dipakai harian tetap nyaman dari pengalaman pertama buatku,2,validation,positive
+buatku dipakai sebentar langsung bermasalah buat pemakaian harian buatku...,0,validation,negative
+harga masih oke untuk harga segini ya,1,validation,neutral
+menurutku barang datang dalam kondisi jelek buat pemakaian harian sih!,0,validation,negative
+recommended bgt,2,validation,positive
+buatku pelayanan cepat dan memuaskan buat pemakaian harian banget!,2,validation,positive
+menurutku harga masih oke buat pemakaian harian,1,validation,neutral
+buatku fiturnya sering error untuk harga segini menurutku,0,validation,negative
+kalau dari pengalamanku pelayanan cepat dan ok dari segi fitur,2,validation,positive
+kalau dari pengalamanku adminnya susah dihubungi sih,0,validation,negative
+kalau dari pengalamanku ga recommended untuk harga segini sih,0,validation,negative
+jujur ya saya tidak puas ya,0,validation,negative
+jujur ya kualitasnya mantap ya,2,validation,positive
+buatku sejauh ini aman tapi belum spesial dari segi fitur ya,1,validation,neutral
+buatku fiturnya sering error buat pemakaian harian buatku,0,validation,negative
+review singkat saya tidak puas dari pengalaman pertama sih,0,validation,negative
+buatku kualitasnya lumayan dari segi fitur,1,validation,neutral
+saya suka hasilnya dari pengalaman pertama buatku,2,validation,positive
+kalau dari pengalamanku kualitasnya lumayan dari segi fitur ya,1,validation,neutral
+jujur ya fiturnya sangat membantu buatku!,2,validation,positive
+kalau dari pengalamanku packaging rapi dan aman ya,2,validation,positive
+buatku saya tidak puas untuk harga segini ya,0,validation,negative
+menurutku pelayanan cukup biasa untuk harga segini buatku,1,validation,neutral
+buatku dipakai harian tetap nyaman menurutku,2,validation,positive
+menurutku pengiriman sesuai estimasi dari segi fitur banget,1,validation,neutral
+jujur ya pengiriman sesuai estimasi dari segi fitur buatku,1,validation,neutral
+review singkat barang ini standar dari segi fitur buatku,1,validation,neutral
+menurutku fiturnya cukup membantu banget!,1,validation,neutral
+buatku pelayanan cukup biasa banget,1,validation,neutral
+jujur ya pengalaman saya biasa saja dari pengalaman pertama sih,1,validation,neutral
+review singkat worth it banget buat dibeli dari pengalaman pertama ya.,2,validation,positive
+kalau dari pengalamanku pengiriman sesuai estimasi dari pengalaman pertama,1,validation,neutral
+sejauh ini aman tapi belum spesial dari segi fitur buatku,1,validation,neutral
+buatku worth it banget buat dibeli dari pengalaman pertama banget,2,validation,positive
+buatku kualitasnya lumayan dari segi fitur ya,1,validation,neutral
+review singkat packaging rusak waktu sampai ya,0,validation,negative
+kalau dari pengalamanku kualitasnya lumayan dari pengalaman pertama buatku,1,validation,neutral
+buatku harga masih oke dari pengalaman pertama ya,1,validation,neutral
+menurutku produk ini standar banget...,1,validation,neutral
+review singkat kualitasnya mantap dari segi fitur,2,validation,positive
+menurutku fiturnya sering error dari pengalaman pertama menurutku,0,validation,negative
+pengalaman saya biasa saja buatku,1,validation,neutral
+jujur ya barang ini mengecewakan,0,validation,negative
+kalau dari pengalamanku harga sesuai kualitas untuk harga segini banget.,2,validation,positive
+pelayanan sangat lambat untuk harga segini menurutku,0,validation,negative
+kalau dari pengalamanku produk ini sangat bagus buat pemakaian harian ya,2,validation,positive
+kalau dari pengalamanku pengalaman saya biasa saja banget,1,validation,neutral
+menurutku pengiriman sesuai estimasi dari segi fitur.,1,validation,neutral
+packaging rapi dan aman dari segi fitur menurutku,2,validation,positive
+menurutku pengiriman terlambat dari pengalaman pertama sih,0,validation,negative
+pelayanan cepat dan memuaskan untuk harga segini ya,2,validation,positive
+buatku produk ini sangat bagus dari pengalaman pertama...,2,validation,positive
+review singkat dipakai sebentar langsung bermasalah untuk harga segini menurutku,0,validation,negative
+menurutku pelayanan cukup biasa!,1,validation,neutral
+buatku dipakai harian tetap nyaman dari pengalaman pertama buatku,2,validation,positive
+fiturnya sering error dari pengalaman pertama sih.,0,validation,negative
+jujur ya pelayanan cepat dan memuaskan untuk harga segini buatku,2,validation,positive
+jujur ya pengiriman sesuai estimasi untuk harga segini menurutku.,1,validation,neutral
+kalau dari pengalamanku pengiriman terlambat banget...,0,validation,negative
+buatku produk ini standar dari segi fitur sih,1,validation,neutral
+jujur ya tidak rekomen dari pengalaman pertama buatku,0,validation,negative
+jujur ya delivery normal ga cepat tidak lambat ya,1,validation,neutral
+kalau dari pengalamanku saya gak puas buat pemakaian harian ya,0,validation,negative
+buatku tidak recommended,0,validation,negative
+jujur ya pengiriman normal tidak cepat tidak lambat dari pengalaman pertama menurutku,1,validation,neutral
+review singkat pelayanan sangat lambat buat pemakaian harian menurutku.,0,validation,negative
+jujur ya kualitasnya buruk buat pemakaian harian sih,0,validation,negative
+review singkat harga nggak sebanding untuk harga segini,0,validation,negative
+jujur ya sejauh ini aman tapi belum spesial buat pemakaian harian menurutku.,1,validation,neutral
+menurutku barang ini standar untuk harga segini ya,1,validation,neutral
+buatku barang datang dalam kondisi jelek ya,0,validation,negative
+kalau dari pengalamanku dipakai harian tetap nyaman dari pengalaman pertama menurutku,2,validation,positive
+buatku barang ini mengecewakan,0,validation,negative
+menurutku pengalaman saya biasa saja dari segi fitur,1,validation,neutral
+kalau dari pengalamanku fiturnya sering error untuk harga segini banget...,0,validation,negative
+menurutku pengiriman sesuai estimasi dari segi fitur menurutku.,1,validation,neutral
+buatku pengiriman terlambat dari pengalaman pertama,0,validation,negative
+review singkat pelayanan cukup biasa dari pengalaman pertama...,1,validation,neutral
+menurutku packaging rusak waktu sampai untuk harga segini ya!,0,validation,negative
+sejauh ini aman tapi belum spesial menurutku,1,validation,neutral
+review singkat produk ini mengecewakan dari pengalaman pertama menurutku,0,validation,negative
+menurutku tidak recommended dari pengalaman pertama,0,validation,negative
+overall masih oke untuk harga segini sih,1,validation,neutral
+jujur ya worth it banget buat dibeli buatku,2,validation,positive
+menurutku tidak rekomen dari pengalaman pertama buatku,0,validation,negative
+kalau dari pengalamanku pelayanan cukup biasa dari segi fitur ya,1,validation,neutral
+harga sesuai kualitas buat pemakaian harian sih,2,validation,positive
+menurutku pelayanan sangat lambat buat pemakaian harian sih,0,validation,negative
+sejauh ini aman tapi belum spesial untuk harga segini,1,validation,neutral
+menurutku harga masih oke banget!,1,validation,neutral
+menurutku pengiriman sesuai estimasi buat pemakaian harian,1,validation,neutral
+buatku fiturnya jalan sesuai deskripsi banget,1,validation,neutral
+review singkat dipakai sebentar langsung bermasalah buat pemakaian harian bgt,0,validation,negative
+jujur ya adminnya susah dihubungi dari segi fitur buatku!,0,validation,negative
+buatku pengiriman tepat waktu buat pemakaian harian banget,2,validation,positive
+menurutku harga masih oke dari segi fitur sih!,1,validation,neutral
+kalau dari pengalamanku barang datang dalam kondisi jelek sih,0,validation,negative
+pengiriman normal tidak cepat tidak lambat dari segi fitur sih!,1,validation,neutral
+kalau dari pengalamanku barang datang dalam kondisi jelek buat pemakaian harian ya,0,validation,negative
+kalau dari pengalamanku barang datang dalam kondisi jelek dari pengalaman pertama ya.,0,validation,negative
+buatku fiturnya jalan sesuai deskripsi buat pemakaian harian,1,validation,neutral
+menurutku fiturnya sering error buat pemakaian harian sih.,0,validation,negative
+kalau dari pengalamanku worth it banget buat dibeli ya,2,validation,positive
+kalau dari pengalamanku saya nggak puas dari segi fitur menurutku!,0,validation,negative
+menurutku saya tidak puas dari pengalaman pertama,0,validation,negative
+menurutku adminnya responsif dan ramah untuk harga segini sih,2,validation,positive
+jujur ya adminnya responsif dan ramah dari segi fitur menurutku,2,validation,positive
+menurutku fiturnya sering error banget,0,validation,negative
+buatku kualitasnya mantap untuk harga segini sih,2,validation,positive
+kalau dari pengalamanku hasilnya tidak buruk tidak istimewa untuk harga segini ya,1,validation,neutral
+menurutku servis cepat dan memuaskan buat pemakaian harian,2,validation,positive
+review singkat produk ini mengecewakan buat pemakaian harian buatku,0,validation,negative
+saya suka hasilnya dari pengalaman pertama buatku,2,validation,positive
+jujur ya produk ini sangat bagus untuk harga segini ya,2,validation,positive
+buatku worth it banget buat dibeli dari pengalaman pertama buatku,2,validation,positive
+review singkat packaging rapi dan aman ya,2,validation,positive
+buatku fiturnya jalan sesuai deskripsi buat pemakaian harian,1,validation,neutral
+kalau dari pengalamanku saya suka hasilnya buat pemakaian harian sih,2,validation,positive
+kalau dari pengalamanku rekomen banget dari pengalaman pertama sih,2,validation,positive
+produk ini mengecewakan untuk harga segini,0,validation,negative
+menurutku packaging rusak waktu sampai dari pengalaman pertama,0,validation,negative
+jujur ya overall masih oke untuk harga segini banget,1,validation,neutral
+menurutku pengiriman sesuai estimasi,1,validation,neutral
+kalau dari pengalamanku produk ini standar untuk harga segini banget.,1,validation,neutral
+jujur ya pengiriman tepat waktu dari segi fitur ya,2,validation,positive
+review singkat hasilnya tidak buruk tidak istimewa dari segi fitur menurutku,1,validation,neutral
+review singkat kualitasnya lumayan untuk harga segini...,1,validation,neutral
+buatku nggak recommended dari segi fitur banget,0,validation,negative
+kalau dari pengalamanku saya tidak puas dari segi fitur bgt,0,validation,negative
+buatku saya suka hasilnya banget!,2,validation,positive
+pengalaman saya biasa saja sih,1,validation,neutral
+menurutku dipakai harian tetap nyaman sih,2,validation,positive
+kalau dari pengalamanku delivery normal nggak cepat tidak lambat dari pengalaman pertama buatku,1,validation,neutral
+buatku recommended banget...,2,validation,positive
+review singkat kualitasnya lumayan...,1,validation,neutral
+review singkat kualitasnya mantap buat pemakaian harian buatku,2,validation,positive
+kalau dari pengalamanku harga sesuai kualitas menurutku,2,validation,positive
+review singkat packaging rusak waktu sampai,0,validation,negative
+buatku worth it banget buat dibeli buat pemakaian harian buatku.,2,validation,positive
+review singkat sejauh ini aman tapi belum spesial dari segi fitur,1,validation,neutral
+buatku servis cepat dan memuaskan dari pengalaman pertama ya,2,validation,positive
+menurutku harga tidak sebanding menurutku,0,validation,negative
+menurutku fiturnya jalan sesuai deskripsi sih,1,validation,neutral
+kalau dari pengalamanku kualitasnya mantap dari segi fitur ya,2,validation,positive
+review singkat saya suka hasilnya buat pemakaian harian bgt...,2,validation,positive
+kalau dari pengalamanku saya tidak puas untuk harga segini ya,0,validation,negative
+jujur ya harga masih oke dari segi fitur ya,1,validation,neutral
+menurutku produk ini sangat bagus sih,2,validation,positive
+jujur ya recommended banget untuk harga segini,2,validation,positive
+buatku saya ga puas sih,0,validation,negative
+jujur ya adminnya responsif dan ramah dari segi fitur menurutku,2,validation,positive
+buatku barang datang dalam kondisi jelek untuk harga segini...,0,validation,negative
+jujur ya pengiriman normal gak cepat tidak lambat dari segi fitur ya,1,validation,neutral
+jujur ya harga tidak sebanding dari pengalaman pertama ya,0,validation,negative
+jujur ya hasilnya tidak buruk tidak istimewa buatku,1,validation,neutral
+buatku fiturnya sering error dari segi fitur sih,0,validation,negative
+jujur ya pengiriman sesuai estimasi dari segi fitur,1,validation,neutral
+buatku pelayanan sangat lambat buat pemakaian harian ya,0,validation,negative
+kalau dari pengalamanku overall masih oke untuk harga segini dari segi fitur menurutku...,1,validation,neutral
+menurutku pengalaman saya biasa saja untuk harga segini sih,1,validation,neutral
+menurutku kualitasnya mantap buat pemakaian harian,2,validation,positive
+saya suka hasilnya sih,2,validation,positive
+kalau dari pengalamanku pelayanan cepat dan memuaskan dari pengalaman pertama buatku,2,validation,positive
+menurutku pengiriman normal tidak cepat tidak lambat untuk harga segini ya,1,validation,neutral
+menurutku worth it banget buat dibeli dari segi fitur,2,validation,positive
+menurutku harga sesuai kualitas dari segi fitur bnget,2,validation,positive
+jujur ya harga sesuai kualitas dari pengalaman pertama,2,validation,positive
+kalau dari pengalamanku harga tidak sebanding buatku,0,validation,negative
+jujur ya adminnya susah dihubungi ya,0,validation,negative
+kalau dari pengalamanku dipakai sebentar langsung bermasalah untuk harga segini sih!,0,validation,negative
+buatku overall masih oke untuk harga segini dari pengalaman pertama banget,1,validation,neutral
+menurutku kualitasnya lumayan untuk harga segini bgt,1,validation,neutral
+kualitasnya mantap dari pengalaman pertama ya,2,validation,positive
+buatku adminnya susah dihubungi untuk harga segini buatku!,0,validation,negative
+kalau dari pengalamanku saya suka hasilnya untuk harga segini sih,2,validation,positive
+buatku pengiriman terlambat untuk harga segini,0,validation,negative
+buatku pengiriman normal ga cepat tidak lambat dari pengalaman pertama bgt,1,validation,neutral
+rekomen bnget banget,2,validation,positive
+jujur ya dipakai sebentar langsung bermasalah untuk harga segini menurutku,0,validation,negative
+pelayanan cepat dan memuaskan dari segi fitur menurutku,2,validation,positive
+jujur ya packaging rapi dan aman buat pemakaian harian menurutku,2,validation,positive
+buatku kualitasnya buruk sih,0,validation,negative
+jujur ya tidak recommended untuk harga segini menurutku...,0,validation,negative
+tidak recommended dari segi fitur ya,0,validation,negative
+menurutku barang ini sangat bagus buat pemakaian harian ya,2,validation,positive
+jujur ya packaging rusak waktu sampai buat pemakaian harian banget...,0,validation,negative
+buatku fiturnya cukup membantu dari pengalaman pertama ya,1,validation,neutral
+buatku pengiriman tepat waktu untuk harga segini.,2,validation,positive
+review singkat fiturnya cukup membantu buat pemakaian harian,1,validation,neutral
+menurutku hasilnya gak buruk tidak istimewa dari segi fitur menurutku,1,validation,neutral
+packaging rapi dan aman dari segi fitur buatku,2,validation,positive
+servis cepat dan memuaskan dari pengalaman pertama buatku,2,validation,positive
+kalau dari pengalamanku fiturnya jalan sesuai deskripsi buat pemakaian harian sih,1,validation,neutral
+packaging rusak waktu sampai dari segi fitur,0,validation,negative
+menurutku dipakai harian tetap nyaman dari pengalaman pertama sih.,2,validation,positive
+jujur ya pengalaman saya biasa saja buat pemakaian harian menurutku,1,validation,neutral
+kalau dari pengalamanku pengiriman tepat waktu dari pengalaman pertama sih,2,validation,positive
+adminnya susah dihubungi sih,0,validation,negative
+menurutku harga sesuai kualitas,2,validation,positive
+kalau dari pengalamanku recommended banget dari segi fitur menurutku,2,validation,positive
+review singkat saya tidak puas buat pemakaian harian bgt,0,validation,negative
+pelayanan cepat dan ok dari segi fitur buatku!,2,validation,positive
+jujur ya dipakai harian tetap nyaman dari pengalaman pertama menurutku,2,validation,positive
+menurutku saya suka hasilnya untuk harga segini,2,validation,positive
+buatku fiturnya beneran membantu buat pemakaian harian bnget,2,validation,positive
+review singkat fiturnya sangat membantu banget,2,validation,positive
+kalau dari pengalamanku kualitasnya lumayan dari segi fitur banget...,1,validation,neutral
+fiturnya sangat membantu buat pemakaian harian sih,2,validation,positive
+review singkat packaging rapi dan aman untuk harga segini,2,validation,positive
+barang ini mengecewakan dari pengalaman pertama bnget,0,validation,negative
+menurutku fiturnya sering error dari pengalaman pertama banget!,0,validation,negative
