@@ -1,6 +1,6 @@
 # Atha NLP Sentiment Pipeline
 
-Pipeline NLP end-to-end untuk klasifikasi sentimen Bahasa Indonesia (negative, neutral, positive), dari data preparation sampai deployment model dan demo.
+Pipeline NLP end-to-end untuk klasifikasi sentimen Bahasa Indonesia (negative, neutral, positive), dari data preparation, training, evaluasi, hingga publikasi model dan demo.
 
 ## Result Highlight
 
@@ -8,7 +8,7 @@ Pipeline NLP end-to-end untuk klasifikasi sentimen Bahasa Indonesia (negative, n
 - Model base: `indobenchmark/indobert-base-p1`
 - Dataset publik: 1800 sampel (1500 train, 300 validation)
 - Metrik validasi terbaru (synthetic dataset): Accuracy `1.0000`, Macro F1 `1.0000`
-- Deployment lengkap: Model Hub + Dataset Hub + Space Demo + FastAPI endpoint
+- Delivery saat ini: Model Hub + Dataset Hub + Space Demo + API lokal
 
 ## Tech Stack
 
@@ -100,12 +100,6 @@ hf auth login
 python scripts/train.py --push-to-hub --repo-id Bangkah/atha-text-classifier
 ```
 
-Contoh untuk akun ini:
-
-```bash
-python scripts/train.py --push-to-hub --repo-id Bangkah/atha-text-classifier
-```
-
 Training dari CSV real (custom path):
 
 ```bash
@@ -146,25 +140,119 @@ Rekomendasi:
 python app.py
 ```
 
-8. Jalankan API backend (FastAPI):
+8. Jalankan API backend (FastAPI, local):
 
 ```bash
 uvicorn api:app --host 0.0.0.0 --port 8000
 ```
 
-Opsional keamanan API:
+Konfigurasi API key dan rate limit:
 
-- Set environment variable `API_KEY` untuk mewajibkan header `X-API-Key`.
-- Rate limit default: 30 request per 60 detik per IP.
+- `API_KEYS_JSON`: konfigurasi multi-key dalam format JSON.
+- `API_KEY`: fallback legacy single-key (opsional).
+- `RATE_LIMIT_MAX_REQUESTS`: default limit per menit jika `rpm` tidak ditentukan.
+- `ADMIN_API_KEY`: key admin untuk endpoint rekap penggunaan.
+- `USAGE_DB_PATH`: path SQLite untuk usage log.
+
+Contoh konfigurasi (PowerShell):
+
+```powershell
+$env:API_KEYS_JSON='{"demo-key":{"owner":"demo","rpm":30}}'
+$env:ADMIN_API_KEY='admin-secret'
+$env:USAGE_DB_PATH='artifacts/usage/usage.db'
+uvicorn api:app --host 0.0.0.0 --port 8000
+```
 
 Contoh request prediksi:
 
 ```bash
 curl -X POST http://127.0.0.1:8000/predict \
 	-H "Content-Type: application/json" \
-	-H "X-API-Key: YOUR_API_KEY" \
+	-H "X-API-Key: demo-key" \
 	-d "{\"text\":\"produk ini biasa saja\"}"
 ```
+
+Contoh request usage summary (admin):
+
+```bash
+curl "http://127.0.0.1:8000/usage/summary" \
+  -H "X-Admin-Key: admin-secret"
+```
+
+## API Reference (Ringkas)
+
+- `GET /health` -> cek status service.
+- `POST /predict` -> prediksi sentimen, butuh `X-API-Key` jika key config aktif.
+- `GET /usage/summary` -> ringkasan usage per owner, butuh `X-Admin-Key`.
+
+Status code utama:
+
+- `200`: request sukses.
+- `400`: input tidak valid (misalnya teks kosong).
+- `401`: API key/admin key tidak valid.
+- `429`: rate limit terlampaui.
+- `503`: model artifact belum siap.
+- `500`: error internal saat inferensi.
+
+## Docker (Opsional)
+
+Build image:
+
+```bash
+docker build -t atha-text-classifier:latest .
+```
+
+Run container:
+
+```bash
+docker run --rm -p 8000:8000 \
+	-v "$(pwd)/artifacts:/app/artifacts" \
+	-e API_KEYS_JSON='{"demo-key":{"owner":"demo","rpm":30}}' \
+	-e ADMIN_API_KEY='admin-secret' \
+	-e USAGE_DB_PATH='artifacts/usage/usage.db' \
+	atha-text-classifier:latest
+```
+
+Untuk PowerShell (Windows):
+
+```powershell
+docker run --rm -p 8000:8000 `
+  -v "${PWD}/artifacts:/app/artifacts" `
+  -e API_KEYS_JSON='{"demo-key":{"owner":"demo","rpm":30}}' `
+  -e ADMIN_API_KEY='admin-secret' `
+  -e USAGE_DB_PATH='artifacts/usage/usage.db' `
+  atha-text-classifier:latest
+```
+
+Gunakan secret acak yang kuat; jangan pakai contoh key di atas untuk production.
+
+Alternatif dengan Docker Compose:
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Cek health container:
+
+```bash
+docker compose ps
+```
+
+Edit nilai environment di `docker-compose.yml` sebelum dipakai di environment selain local.
+Edit nilai secret di `.env` sebelum menjalankan service.
+
+Preflight sebelum run:
+
+- Pastikan model sudah ada di `artifacts/model` (jalankan training minimal sekali di host).
+- Pastikan volume mount `artifacts:/app/artifacts` aktif agar API bisa membaca model.
+
+## Next Phase
+
+- Deploy API ke platform cloud (Render/Railway/Fly) setelah local smoke test stabil.
+- Tambah observability (structured log, dashboard latency, alert error-rate).
+- Tambah test API otomatis di CI untuk auth, rate-limit, dan error-path.
+- Dockerization sebagai opsi packaging saat deployment target sudah dipilih.
 
 ## Catatan
 
@@ -177,6 +265,7 @@ curl -X POST http://127.0.0.1:8000/predict \
 - Ringkasan evaluasi tambahan otomatis di `artifacts/model/metrics_summary.txt`.
 - Error analysis otomatis di `artifacts/model/error_analysis.csv` dan `artifacts/model/error_analysis.md`.
 - Metrik saat ini sangat tinggi karena data masih sintetis; gunakan data real untuk evaluasi produksi.
+- Usage logs API disimpan di `artifacts/usage/usage.db` (jika fitur logging diaktifkan).
 
 ## Output Artifacts
 

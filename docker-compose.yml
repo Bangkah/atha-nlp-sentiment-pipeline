@@ -1,0 +1,22 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: atha-text-classifier:latest
+    ports:
+      - "8000:8000"
+    environment:
+      API_KEYS_JSON: ${API_KEYS_JSON:?API_KEYS_JSON is required}
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?ADMIN_API_KEY is required}
+      USAGE_DB_PATH: ${USAGE_DB_PATH:-artifacts/usage/usage.db}
+    volumes:
+      - ./artifacts:/app/artifacts
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3).read()"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    stop_grace_period: 10s
+    restart: unless-stopped
