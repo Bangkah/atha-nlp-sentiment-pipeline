@@ -51,7 +51,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--repo-id",
         default="",
-        help="Format: username/nama-repo (wajib jika --push-to-hub)",
+        help="Format: owner/nama-repo, contoh Bangkah/atha-text-classifier (wajib jika --push-to-hub)",
     )
     parser.add_argument(
         "--private-repo",

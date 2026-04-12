@@ -1,11 +1,51 @@
-# AI Model Starter (Dataset -> Training -> Inference)
+# Atha NLP Sentiment Pipeline
 
-Project ini menyiapkan alur sederhana untuk:
-1. Membuat dataset teks klasifikasi otomatis.
-2. Training model Transformer (Hugging Face + PyTorch).
-3. Menjalankan prediksi dari model hasil training.
-4. Menjalankan demo web dengan Gradio.
-5. Menyediakan API inference dengan FastAPI.
+Pipeline NLP end-to-end untuk klasifikasi sentimen Bahasa Indonesia (negative, neutral, positive), dari data preparation sampai deployment model dan demo.
+
+## Result Highlight
+
+- 3 kelas sentimen: `negative`, `neutral`, `positive`
+- Model base: `indobenchmark/indobert-base-p1`
+- Dataset publik: 1800 sampel (1500 train, 300 validation)
+- Metrik validasi terbaru (synthetic dataset): Accuracy `1.0000`, Macro F1 `1.0000`
+- Deployment lengkap: Model Hub + Dataset Hub + Space Demo + FastAPI endpoint
+
+## Tech Stack
+
+- Model training: PyTorch, Hugging Face Transformers, Datasets, Evaluate
+- Data processing: Pandas, NumPy
+- API serving: FastAPI, Uvicorn
+- Interactive demo: Gradio
+- MLOps and hosting: Hugging Face Hub (Model, Dataset, Spaces)
+- CI workflow: GitHub Actions
+
+## Architecture
+
+```text
+data/raw/*.csv (train, valid)
+	|
+	v
+scripts/train.py
+  - tokenize
+  - fine-tune IndoBERT
+  - evaluate (accuracy, macro-f1)
+  - generate metrics + error analysis
+	|
+	v
+artifacts/model/
+  - model weights + tokenizer
+  - metrics_summary.txt
+  - error_analysis.{csv,md}
+	|
+	+--> Hugging Face Model Hub
+	+--> FastAPI (api.py)
+	+--> Gradio Demo (app.py / space_demo/)
+
+data/published/atha_text_dataset.csv
+	|
+	v
+Hugging Face Dataset Hub
+```
 
 ## Struktur
 
@@ -15,6 +55,9 @@ Project ini menyiapkan alur sederhana untuk:
 - `app.py`: Demo Gradio lokal.
 - `api.py`: API backend FastAPI.
 - `space_demo/`: Source code demo untuk Hugging Face Spaces.
+- `tests/`: Unit test ringan untuk kontrak repository.
+- `.github/workflows/ci.yml`: Pipeline CI (lint + test) untuk push/PR.
+- `Makefile`: Shortcut command untuk local workflow.
 - `requirements.txt`: Dependency Python.
 
 ## Quick Start
@@ -54,7 +97,13 @@ hf auth login
 6. Training + push ke Hugging Face Hub:
 
 ```bash
-python scripts/train.py --push-to-hub --repo-id USERNAME/atha-text-classifier
+python scripts/train.py --push-to-hub --repo-id Bangkah/atha-text-classifier
+```
+
+Contoh untuk akun ini:
+
+```bash
+python scripts/train.py --push-to-hub --repo-id Bangkah/atha-text-classifier
 ```
 
 Training dari CSV real (custom path):
@@ -83,8 +132,13 @@ Keterangan label: `0=negative`, `1=neutral`, `2=positive`.
 Opsional private repo:
 
 ```bash
-python scripts/train.py --push-to-hub --repo-id USERNAME/atha-text-classifier --private-repo
+python scripts/train.py --push-to-hub --repo-id Bangkah/atha-text-classifier --private-repo
 ```
+
+Rekomendasi:
+
+- Untuk portfolio, gunakan mode public (tanpa `--private-repo`).
+- Gunakan `--private-repo` jika model belum siap dipublikasikan atau data sensitif.
 
 7. Jalankan demo Gradio lokal:
 
@@ -122,12 +176,24 @@ curl -X POST http://127.0.0.1:8000/predict \
 - Data ini masih sintetis (untuk portfolio pipeline), disarankan lanjut fine-tune dengan data real.
 - Ringkasan evaluasi tambahan otomatis di `artifacts/model/metrics_summary.txt`.
 - Error analysis otomatis di `artifacts/model/error_analysis.csv` dan `artifacts/model/error_analysis.md`.
+- Metrik saat ini sangat tinggi karena data masih sintetis; gunakan data real untuk evaluasi produksi.
 
 ## Output Artifacts
 
 - `artifacts/model/metrics_summary.txt`: ringkasan metrik + confusion matrix + classification report.
 - `artifacts/model/error_analysis.csv`: daftar sampel validation yang salah prediksi.
 - `artifacts/model/error_analysis.md`: ringkasan human-readable untuk debugging model.
+
+## Development
+
+- Panduan kontribusi: `CONTRIBUTING.md`
+- Lisensi repository: `LICENSE`
+- Quality check lokal:
+
+```bash
+make lint
+make test
+```
 
 ## Published Links
 
