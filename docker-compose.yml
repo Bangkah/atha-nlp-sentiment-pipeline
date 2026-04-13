@@ -10,6 +10,7 @@ services:
       API_KEYS_JSON: ${API_KEYS_JSON:?API_KEYS_JSON is required}
       ADMIN_API_KEY: ${ADMIN_API_KEY:?ADMIN_API_KEY is required}
       USAGE_DB_PATH: ${USAGE_DB_PATH:-artifacts/usage/usage.db}
+      MODEL_DIR: ${MODEL_DIR:-artifacts/model}
     volumes:
       - ./artifacts:/app/artifacts
     init: true
