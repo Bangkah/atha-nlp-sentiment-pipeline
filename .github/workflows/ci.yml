@@ -51,7 +51,7 @@ jobs:
 
       - name: Start API with Docker Compose
         env:
-          API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30}}'
+          API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30},"limit-key":{"owner":"limited","rpm":2}}'
           ADMIN_API_KEY: admin-secret
           USAGE_DB_PATH: artifacts/usage/usage.db
         run: docker compose up --build -d
@@ -71,6 +71,17 @@ jobs:
 
       - name: Smoke test predict and usage endpoints
         run: |
+          unauthorized_code=$(curl -s -o /tmp/unauthorized.json -w "%{http_code}" \
+            -X POST http://127.0.0.1:8000/predict \
+            -H "Content-Type: application/json" \
+            -d '{"text":"produk ini bagus"}')
+          if [ "$unauthorized_code" != "401" ]; then
+            echo "Unauthorized predict should return 401, got $unauthorized_code"
+            cat /tmp/unauthorized.json || true
+            docker compose logs --no-color api
+            exit 1
+          fi
+
           predict_code=$(curl -s -o /tmp/predict.json -w "%{http_code}" \
             -X POST http://127.0.0.1:8000/predict \
             -H "Content-Type: application/json" \
@@ -89,6 +100,40 @@ jobs:
           if [ "$usage_code" != "200" ]; then
             echo "Usage endpoint failed with status $usage_code"
             cat /tmp/usage.json || true
+            docker compose logs --no-color api
+            exit 1
+          fi
+
+          bad_admin_code=$(curl -s -o /tmp/bad_admin.json -w "%{http_code}" \
+            http://127.0.0.1:8000/usage/summary \
+            -H "X-Admin-Key: wrong-secret")
+          if [ "$bad_admin_code" != "401" ]; then
+            echo "Usage with wrong admin key should return 401, got $bad_admin_code"
+            cat /tmp/bad_admin.json || true
+            docker compose logs --no-color api
+            exit 1
+          fi
+
+          limit_1=$(curl -s -o /tmp/limit1.json -w "%{http_code}" \
+            -X POST http://127.0.0.1:8000/predict \
+            -H "Content-Type: application/json" \
+            -H "X-API-Key: limit-key" \
+            -d '{"text":"produk ini bagus"}')
+          limit_2=$(curl -s -o /tmp/limit2.json -w "%{http_code}" \
+            -X POST http://127.0.0.1:8000/predict \
+            -H "Content-Type: application/json" \
+            -H "X-API-Key: limit-key" \
+            -d '{"text":"produk ini cukup"}')
+          limit_3=$(curl -s -o /tmp/limit3.json -w "%{http_code}" \
+            -X POST http://127.0.0.1:8000/predict \
+            -H "Content-Type: application/json" \
+            -H "X-API-Key: limit-key" \
+            -d '{"text":"produk ini jelek"}')
+          if [ "$limit_1" != "200" ] || [ "$limit_2" != "200" ] || [ "$limit_3" != "429" ]; then
+            echo "Rate-limit check failed: expected 200,200,429 but got $limit_1,$limit_2,$limit_3"
+            cat /tmp/limit1.json || true
+            cat /tmp/limit2.json || true
+            cat /tmp/limit3.json || true
             docker compose logs --no-color api
             exit 1
           fi
