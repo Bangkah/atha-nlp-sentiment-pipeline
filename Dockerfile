@@ -1,15 +1,16 @@
 FROM python:3.11-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
 
 WORKDIR /app
 
 RUN groupadd -r app && useradd -r -g app app
 
 COPY requirements.api.txt ./
-RUN pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch==2.2.2+cpu
-RUN pip install --no-cache-dir -r requirements.api.txt
+RUN pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch==2.2.2+cpu \
+    && pip install --no-cache-dir -r requirements.api.txt
 
 COPY . .
 RUN chown -R app:app /app
