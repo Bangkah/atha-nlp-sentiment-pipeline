@@ -9,6 +9,7 @@ Pipeline NLP end-to-end untuk klasifikasi sentimen Bahasa Indonesia (negative, n
 - Dataset publik: 1800 sampel (1500 train, 300 validation)
 - Metrik validasi terbaru (synthetic dataset): Accuracy `1.0000`, Macro F1 `1.0000`
 - Delivery saat ini: Model Hub + Dataset Hub + Space Demo + API lokal
+- Quality gate: CI otomatis untuk lint, test, docker build, dan docker smoke test
 
 ## Tech Stack
 
@@ -153,6 +154,7 @@ Konfigurasi API key dan rate limit:
 - `RATE_LIMIT_MAX_REQUESTS`: default limit per menit jika `rpm` tidak ditentukan.
 - `ADMIN_API_KEY`: key admin untuk endpoint rekap penggunaan.
 - `USAGE_DB_PATH`: path SQLite untuk usage log.
+- `MODEL_DIR`: path model inference (default `artifacts/model`).
 
 Contoh konfigurasi (PowerShell):
 
@@ -202,6 +204,14 @@ Build image:
 docker build -t atha-text-classifier:latest .
 ```
 
+Siapkan env lokal:
+
+```bash
+cp .env.example .env
+```
+
+Lalu sesuaikan nilai secret di `.env`.
+
 Run container:
 
 ```bash
@@ -210,6 +220,7 @@ docker run --rm -p 8000:8000 \
 	-e API_KEYS_JSON='{"demo-key":{"owner":"demo","rpm":30}}' \
 	-e ADMIN_API_KEY='admin-secret' \
 	-e USAGE_DB_PATH='artifacts/usage/usage.db' \
+	-e MODEL_DIR='artifacts/model' \
 	atha-text-classifier:latest
 ```
 
@@ -221,6 +232,7 @@ docker run --rm -p 8000:8000 `
   -e API_KEYS_JSON='{"demo-key":{"owner":"demo","rpm":30}}' `
   -e ADMIN_API_KEY='admin-secret' `
   -e USAGE_DB_PATH='artifacts/usage/usage.db' `
+	-e MODEL_DIR='artifacts/model' `
   atha-text-classifier:latest
 ```
 
@@ -239,13 +251,22 @@ Cek health container:
 docker compose ps
 ```
 
-Edit nilai environment di `docker-compose.yml` sebelum dipakai di environment selain local.
 Edit nilai secret di `.env` sebelum menjalankan service.
 
 Preflight sebelum run:
 
 - Pastikan model sudah ada di `artifacts/model` (jalankan training minimal sekali di host).
 - Pastikan volume mount `artifacts:/app/artifacts` aktif agar API bisa membaca model.
+
+## Official CI
+
+Workflow CI di GitHub menjalankan 3 quality gate utama:
+
+- `quality-check`: lint + unit test.
+- `docker-build`: validasi image build.
+- `docker-smoke`: validasi runtime API (health, auth, predict, usage, rate limit).
+
+PR ke `main` direkomendasikan hanya di-merge saat ketiga check ini hijau.
 
 ## Next Phase
 

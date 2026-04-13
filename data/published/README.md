@@ -18,6 +18,8 @@ Dataset klasifikasi sentimen Bahasa Indonesia untuk eksperimen NLP dengan 3 kela
 
 Dataset ini ditujukan untuk pembelajaran pipeline dan baseline eksperimen, bukan benchmark produksi.
 
+Repository dataset: https://huggingface.co/datasets/Bangkah/atha-text-dataset
+
 ## Struktur Kolom
 
 - text: Kalimat ulasan
@@ -33,6 +35,13 @@ Dataset ini ditujukan untuk pembelajaran pipeline dan baseline eksperimen, bukan
 
 Setiap split memiliki distribusi kelas seimbang.
 
+## Example Row
+
+```csv
+text,label,split,label_text
+"produk ini bagus banget",2,train,positive
+```
+
 ## Sumber
 
 Dataset sintetis yang dibuat untuk latihan pipeline AI end-to-end.
@@ -41,3 +50,4 @@ Dataset sintetis yang dibuat untuk latihan pipeline AI end-to-end.
 
 - Gunakan dataset ini sebagai seed dataset untuk prototyping.
 - Untuk hasil produksi, gabungkan dengan data real dari domain aplikasi.
+- Lakukan evaluasi ulang di data out-of-distribution sebelum deployment.
