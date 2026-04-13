@@ -45,15 +45,24 @@ jobs:
   docker-smoke:
     runs-on: ubuntu-latest
 
+    env:
+      API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30},"limit-key":{"owner":"limited","rpm":2}}'
+      ADMIN_API_KEY: admin-secret
+      USAGE_DB_PATH: artifacts/usage/usage.db
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Prepare Docker Compose env
+        run: |
+          cat > .env <<EOF
+          API_KEYS_JSON=${API_KEYS_JSON}
+          ADMIN_API_KEY=${ADMIN_API_KEY}
+          USAGE_DB_PATH=${USAGE_DB_PATH}
+          EOF
+
       - name: Start API with Docker Compose
-        env:
-          API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30},"limit-key":{"owner":"limited","rpm":2}}'
-          ADMIN_API_KEY: admin-secret
-          USAGE_DB_PATH: artifacts/usage/usage.db
         run: docker compose up --build -d
 
       - name: Wait for API health
