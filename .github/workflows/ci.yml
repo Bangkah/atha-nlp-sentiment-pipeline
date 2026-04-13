@@ -94,6 +94,27 @@ jobs:
             exit 1
           fi
 
+          python3 - <<'PY'
+import json
+from pathlib import Path
+
+payload = json.loads(Path('/tmp/predict.json').read_text())
+
+required = {'request_id', 'label', 'confidence'}
+missing = required - payload.keys()
+if missing:
+    raise SystemExit(f'Predict payload missing fields: {sorted(missing)}')
+
+if payload['label'] not in {'negative', 'neutral', 'positive'}:
+    raise SystemExit(f"Invalid label value: {payload['label']!r}")
+
+confidence = payload['confidence']
+if not isinstance(confidence, (float, int)):
+    raise SystemExit('Confidence is not numeric')
+if not (0.0 <= float(confidence) <= 1.0):
+    raise SystemExit(f'Confidence out of range: {confidence}')
+PY
+
           usage_code=$(curl -s -o /tmp/usage.json -w "%{http_code}" \
             http://127.0.0.1:8000/usage/summary \
             -H "X-Admin-Key: admin-secret")
@@ -103,6 +124,25 @@ jobs:
             docker compose logs --no-color api
             exit 1
           fi
+
+          python3 - <<'PY'
+import json
+from pathlib import Path
+
+payload = json.loads(Path('/tmp/usage.json').read_text())
+
+if 'window_seconds' not in payload or 'items' not in payload:
+    raise SystemExit('Usage payload missing required fields')
+
+if not isinstance(payload['items'], list):
+    raise SystemExit('Usage items should be a list')
+
+for idx, item in enumerate(payload['items']):
+    required = {'owner', 'total_requests', 'success_requests', 'failed_requests'}
+    missing = required - item.keys()
+    if missing:
+        raise SystemExit(f'Usage item {idx} missing fields: {sorted(missing)}')
+PY
 
           bad_admin_code=$(curl -s -o /tmp/bad_admin.json -w "%{http_code}" \
             http://127.0.0.1:8000/usage/summary \
