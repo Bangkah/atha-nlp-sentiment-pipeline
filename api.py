@@ -26,6 +26,7 @@ RATE_LIMIT_WINDOW_SECONDS = 60
 DEFAULT_RATE_LIMIT_PER_MIN = int(os.getenv("RATE_LIMIT_MAX_REQUESTS", "30"))
 ADMIN_API_KEY = os.getenv("ADMIN_API_KEY", "")
 USAGE_DB_PATH = Path(os.getenv("USAGE_DB_PATH", "artifacts/usage/usage.db"))
+MODEL_DIR = os.getenv("MODEL_DIR", "artifacts/model")
 
 REQUEST_LOG: dict[str, deque[float]] = defaultdict(deque)
 
@@ -182,7 +183,7 @@ def predict_endpoint(
     _enforce_rate_limit(rate_limit_scope, rpm)
 
     try:
-        label, confidence = predict(text=text, model_dir="artifacts/model")
+        label, confidence = predict(text=text, model_dir=MODEL_DIR)
         status_code = 200
         error = None
     except FileNotFoundError as exc:

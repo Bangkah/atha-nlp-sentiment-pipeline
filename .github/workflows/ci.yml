@@ -49,6 +49,7 @@ jobs:
       API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30},"limit-key":{"owner":"limited","rpm":2}}'
       ADMIN_API_KEY: admin-secret
       USAGE_DB_PATH: /tmp/usage.db
+      MODEL_DIR: /tmp/model
 
     steps:
       - name: Checkout
@@ -60,6 +61,7 @@ jobs:
           API_KEYS_JSON=${API_KEYS_JSON}
           ADMIN_API_KEY=${ADMIN_API_KEY}
           USAGE_DB_PATH=${USAGE_DB_PATH}
+          MODEL_DIR=${MODEL_DIR}
           EOF
 
       - name: Start API with Docker Compose
@@ -77,6 +79,18 @@ jobs:
           echo "API healthcheck failed"
           docker compose logs --no-color api
           exit 1
+
+      - name: Download model artifacts for smoke test
+        run: |
+          docker compose exec -T api python - <<'PY'
+          from huggingface_hub import snapshot_download
+
+          snapshot_download(
+            repo_id="Bangkah/atha-text-classifier",
+            local_dir="/tmp/model",
+            local_dir_use_symlinks=False,
+          )
+          PY
 
       - name: Smoke test predict and usage endpoints
         run: |
@@ -104,25 +118,25 @@ jobs:
           fi
 
           python3 - <<'PY'
-            import json
-            from pathlib import Path
+          import json
+          from pathlib import Path
 
-            payload = json.loads(Path('/tmp/predict.json').read_text())
+          payload = json.loads(Path('/tmp/predict.json').read_text())
 
-            required = {'request_id', 'label', 'confidence'}
-            missing = required - payload.keys()
-            if missing:
+          required = {'request_id', 'label', 'confidence'}
+          missing = required - payload.keys()
+          if missing:
               raise SystemExit(f'Predict payload missing fields: {sorted(missing)}')
 
-            if payload['label'] not in {'negative', 'neutral', 'positive'}:
+          if payload['label'] not in {'negative', 'neutral', 'positive'}:
               raise SystemExit(f"Invalid label value: {payload['label']!r}")
 
-            confidence = payload['confidence']
-            if not isinstance(confidence, (float, int)):
+          confidence = payload['confidence']
+          if not isinstance(confidence, (float, int)):
               raise SystemExit('Confidence is not numeric')
-            if not (0.0 <= float(confidence) <= 1.0):
+          if not (0.0 <= float(confidence) <= 1.0):
               raise SystemExit(f'Confidence out of range: {confidence}')
-            PY
+          PY
 
           usage_code=$(curl -s -o /tmp/usage.json -w "%{http_code}" \
             http://127.0.0.1:8000/usage/summary \
@@ -135,23 +149,23 @@ jobs:
           fi
 
           python3 - <<'PY'
-            import json
-            from pathlib import Path
+          import json
+          from pathlib import Path
 
-            payload = json.loads(Path('/tmp/usage.json').read_text())
+          payload = json.loads(Path('/tmp/usage.json').read_text())
 
-            if 'window_seconds' not in payload or 'items' not in payload:
+          if 'window_seconds' not in payload or 'items' not in payload:
               raise SystemExit('Usage payload missing required fields')
 
-            if not isinstance(payload['items'], list):
+          if not isinstance(payload['items'], list):
               raise SystemExit('Usage items should be a list')
 
-            for idx, item in enumerate(payload['items']):
+          for idx, item in enumerate(payload['items']):
               required = {'owner', 'total_requests', 'success_requests', 'failed_requests'}
               missing = required - item.keys()
               if missing:
-                raise SystemExit(f'Usage item {idx} missing fields: {sorted(missing)}')
-            PY
+                  raise SystemExit(f'Usage item {idx} missing fields: {sorted(missing)}')
+          PY
 
           bad_admin_code=$(curl -s -o /tmp/bad_admin.json -w "%{http_code}" \
             http://127.0.0.1:8000/usage/summary \
