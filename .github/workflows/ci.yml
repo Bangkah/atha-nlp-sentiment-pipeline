@@ -82,13 +82,21 @@ jobs:
 
       - name: Download model artifacts for smoke test
         run: |
-          docker compose exec -T api python - <<'PY'
+          docker compose exec -T \
+            -e HOME=/tmp \
+            -e HF_HOME=/tmp/hf \
+            -e XDG_CACHE_HOME=/tmp/.cache \
+            -e TRANSFORMERS_CACHE=/tmp/hf/transformers \
+            api python - <<'PY'
+          from pathlib import Path
           from huggingface_hub import snapshot_download
+
+          Path('/tmp/hf').mkdir(parents=True, exist_ok=True)
+          Path('/tmp/.cache').mkdir(parents=True, exist_ok=True)
 
           snapshot_download(
             repo_id="Bangkah/atha-text-classifier",
             local_dir="/tmp/model",
-            local_dir_use_symlinks=False,
           )
           PY
 
