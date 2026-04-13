@@ -48,7 +48,7 @@ jobs:
     env:
       API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30},"limit-key":{"owner":"limited","rpm":2}}'
       ADMIN_API_KEY: admin-secret
-      USAGE_DB_PATH: artifacts/usage/usage.db
+      USAGE_DB_PATH: /tmp/usage.db
 
     steps:
       - name: Checkout
