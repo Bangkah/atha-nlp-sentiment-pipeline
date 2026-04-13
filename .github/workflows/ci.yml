@@ -69,6 +69,7 @@ jobs:
 
       - name: Wait for API health
         run: |
+          set -euo pipefail
           for i in {1..40}; do
             code=$(curl -s -o /tmp/health.json -w "%{http_code}" http://127.0.0.1:8000/health || true)
             if [ "$code" = "200" ]; then
@@ -82,26 +83,17 @@ jobs:
 
       - name: Download model artifacts for smoke test
         run: |
+          set -euo pipefail
           docker compose exec -T \
             -e HOME=/tmp \
             -e HF_HOME=/tmp/hf \
             -e XDG_CACHE_HOME=/tmp/.cache \
             -e TRANSFORMERS_CACHE=/tmp/hf/transformers \
-            api python - <<'PY'
-          from pathlib import Path
-          from huggingface_hub import snapshot_download
-
-          Path('/tmp/hf').mkdir(parents=True, exist_ok=True)
-          Path('/tmp/.cache').mkdir(parents=True, exist_ok=True)
-
-          snapshot_download(
-            repo_id="Bangkah/atha-text-classifier",
-            local_dir="/tmp/model",
-          )
-          PY
+            api python -c "from pathlib import Path; from huggingface_hub import snapshot_download; Path('/tmp/hf').mkdir(parents=True, exist_ok=True); Path('/tmp/.cache').mkdir(parents=True, exist_ok=True); snapshot_download(repo_id='Bangkah/atha-text-classifier', local_dir='/tmp/model')"
 
       - name: Smoke test predict and usage endpoints
         run: |
+          set -euo pipefail
           unauthorized_code=$(curl -s -o /tmp/unauthorized.json -w "%{http_code}" \
             -X POST http://127.0.0.1:8000/predict \
             -H "Content-Type: application/json" \
@@ -124,27 +116,7 @@ jobs:
             docker compose logs --no-color api
             exit 1
           fi
-
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          payload = json.loads(Path('/tmp/predict.json').read_text())
-
-          required = {'request_id', 'label', 'confidence'}
-          missing = required - payload.keys()
-          if missing:
-              raise SystemExit(f'Predict payload missing fields: {sorted(missing)}')
-
-          if payload['label'] not in {'negative', 'neutral', 'positive'}:
-              raise SystemExit(f"Invalid label value: {payload['label']!r}")
-
-          confidence = payload['confidence']
-          if not isinstance(confidence, (float, int)):
-              raise SystemExit('Confidence is not numeric')
-          if not (0.0 <= float(confidence) <= 1.0):
-              raise SystemExit(f'Confidence out of range: {confidence}')
-          PY
+          python3 -c "import json; p=json.load(open('/tmp/predict.json')); assert {'request_id','label','confidence'}.issubset(p); assert p['label'] in {'negative','neutral','positive'}; assert isinstance(p['confidence'], (int,float)); assert 0.0 <= float(p['confidence']) <= 1.0"
 
           usage_code=$(curl -s -o /tmp/usage.json -w "%{http_code}" \
             http://127.0.0.1:8000/usage/summary \
@@ -155,25 +127,7 @@ jobs:
             docker compose logs --no-color api
             exit 1
           fi
-
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          payload = json.loads(Path('/tmp/usage.json').read_text())
-
-          if 'window_seconds' not in payload or 'items' not in payload:
-              raise SystemExit('Usage payload missing required fields')
-
-          if not isinstance(payload['items'], list):
-              raise SystemExit('Usage items should be a list')
-
-          for idx, item in enumerate(payload['items']):
-              required = {'owner', 'total_requests', 'success_requests', 'failed_requests'}
-              missing = required - item.keys()
-              if missing:
-                  raise SystemExit(f'Usage item {idx} missing fields: {sorted(missing)}')
-          PY
+          python3 -c "import json; p=json.load(open('/tmp/usage.json')); assert 'window_seconds' in p and 'items' in p; assert isinstance(p['items'], list); req={'owner','total_requests','success_requests','failed_requests'}; [req.issubset(i) for i in p['items']]"
 
           bad_admin_code=$(curl -s -o /tmp/bad_admin.json -w "%{http_code}" \
             http://127.0.0.1:8000/usage/summary \
