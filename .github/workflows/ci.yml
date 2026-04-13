@@ -41,3 +41,58 @@ jobs:
           context: .
           push: false
           tags: atha-text-classifier:ci
+
+  docker-smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Start API with Docker Compose
+        env:
+          API_KEYS_JSON: '{"demo-key":{"owner":"demo","rpm":30}}'
+          ADMIN_API_KEY: admin-secret
+          USAGE_DB_PATH: artifacts/usage/usage.db
+        run: docker compose up --build -d
+
+      - name: Wait for API health
+        run: |
+          for i in {1..40}; do
+            code=$(curl -s -o /tmp/health.json -w "%{http_code}" http://127.0.0.1:8000/health || true)
+            if [ "$code" = "200" ]; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "API healthcheck failed"
+          docker compose logs --no-color api
+          exit 1
+
+      - name: Smoke test predict and usage endpoints
+        run: |
+          predict_code=$(curl -s -o /tmp/predict.json -w "%{http_code}" \
+            -X POST http://127.0.0.1:8000/predict \
+            -H "Content-Type: application/json" \
+            -H "X-API-Key: demo-key" \
+            -d '{"text":"produk ini bagus"}')
+          if [ "$predict_code" != "200" ]; then
+            echo "Predict endpoint failed with status $predict_code"
+            cat /tmp/predict.json || true
+            docker compose logs --no-color api
+            exit 1
+          fi
+
+          usage_code=$(curl -s -o /tmp/usage.json -w "%{http_code}" \
+            http://127.0.0.1:8000/usage/summary \
+            -H "X-Admin-Key: admin-secret")
+          if [ "$usage_code" != "200" ]; then
+            echo "Usage endpoint failed with status $usage_code"
+            cat /tmp/usage.json || true
+            docker compose logs --no-color api
+            exit 1
+          fi
+
+      - name: Stop Docker Compose
+        if: always()
+        run: docker compose down -v
